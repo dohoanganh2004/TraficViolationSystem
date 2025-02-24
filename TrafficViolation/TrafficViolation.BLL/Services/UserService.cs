@@ -18,6 +18,14 @@ namespace TrafficViolation.BLL.Services
             return _repository.GetUserByPhoneAndPassword(phone, password);
 
         }
-       
+
+
+        // Get User By ID
+        public User? ViewProfile(int id)
+        {
+            return _repository.GetUserByID(id);
+
+        }
+
     }
 }

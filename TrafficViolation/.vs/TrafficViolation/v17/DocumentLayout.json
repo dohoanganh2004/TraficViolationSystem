@@ -3,39 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\control\\leftnavbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\control\\leftnavbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\usercontroll\\viewprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\usercontroll\\viewprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\usercontroll\\viewprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\usercontroll\\viewprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\trafficviolation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\trafficviolation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377D6C4C-E169-445E-A9F9-632C4B9BF9CC}|TrafficViolation.BLL\\TrafficViolation.BLL.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377D6C4C-E169-445E-A9F9-632C4B9BF9CC}|TrafficViolation.BLL\\TrafficViolation.BLL.csproj|solutionrelative:trafficviolation.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{336C59B8-BF0E-4A31-A4DF-016861A1156F}|TrafficViolation.DAL\\TrafficViolation.DAL.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{336C59B8-BF0E-4A31-A4DF-016861A1156F}|TrafficViolation.DAL\\TrafficViolation.DAL.csproj|solutionrelative:trafficviolation.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{336C59B8-BF0E-4A31-A4DF-016861A1156F}|TrafficViolation.DAL\\TrafficViolation.DAL.csproj|c:\\users\\pc\\desktop\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{336C59B8-BF0E-4A31-A4DF-016861A1156F}|TrafficViolation.DAL\\TrafficViolation.DAL.csproj|solutionrelative:trafficviolation.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TrafficViolation.DAL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.DAL\\Models\\User.cs",
+              "RelativeToolTip": "TrafficViolation.DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T15:45:11.843Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -61,110 +71,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TrafficViolation\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow.xaml.cs",
-              "RelativeToolTip": "TrafficViolation\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ViewProfile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\UserControll\\ViewProfile.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\UserControll\\ViewProfile.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\UserControll\\ViewProfile.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\UserControll\\ViewProfile.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T10:14:30.399Z",
+              "WhenOpened": "2025-02-24T02:36:58.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeftNavbar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\Control\\LeftNavbar.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\Control\\LeftNavbar.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\Control\\LeftNavbar.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\Control\\LeftNavbar.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:09:37.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TrafficViolation.csproj",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\TrafficViolation.csproj",
-              "RelativeDocumentMoniker": "TrafficViolation\\TrafficViolation.csproj",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\TrafficViolation.csproj",
-              "RelativeToolTip": "TrafficViolation\\TrafficViolation.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-22T09:59:22.053Z"
+              "DocumentIndex": 2,
+              "Title": "ViewProfile.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\UserControll\\ViewProfile.xaml",
+              "RelativeDocumentMoniker": "TrafficViolation\\UserControll\\ViewProfile.xaml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\UserControll\\ViewProfile.xaml",
+              "RelativeToolTip": "TrafficViolation\\UserControll\\ViewProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-22T16:05:25.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\Login.xaml.cs",
               "RelativeDocumentMoniker": "TrafficViolation\\Login.xaml.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\Login.xaml.cs",
               "RelativeToolTip": "TrafficViolation\\Login.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAA+wD4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:52:48.702Z"
+              "WhenOpened": "2025-02-22T16:01:40.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\Login.xaml",
+              "RelativeDocumentMoniker": "TrafficViolation\\Login.xaml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\Login.xaml",
+              "RelativeToolTip": "TrafficViolation\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-22T16:01:35.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAD4vxkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T15:36:55.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TrafficViolation\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow.xaml",
               "RelativeToolTip": "TrafficViolation\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-22T09:34:42.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.BLL\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "TrafficViolation.BLL\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.BLL\\Services\\UserService.cs",
-              "RelativeToolTip": "TrafficViolation.BLL\\Services\\UserService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:24:40.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.DAL\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "TrafficViolation.DAL\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.DAL\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "TrafficViolation.DAL\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:24:29.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ResourcePart.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "ToolTip": "C:\\Users\\PC\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACcAAAAEAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T03:54:02.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\App.xaml",
-              "RelativeDocumentMoniker": "TrafficViolation\\App.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\App.xaml",
-              "RelativeToolTip": "TrafficViolation\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-22T03:47:43.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "TrafficViolation\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\AssemblyInfo.cs",
-              "RelativeToolTip": "TrafficViolation\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T03:47:41.421Z"
+              "WhenOpened": "2025-02-22T15:36:50.778Z"
             }
           ]
         }

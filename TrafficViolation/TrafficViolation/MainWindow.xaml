@@ -1,8 +1,10 @@
 ﻿<Window x:Class="TrafficViolation.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="450" Width="800">
-
+        xmlns:control="clr-namespace:TrafficViolation.Control"
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+ 
     <!-- Nền Gradient Xanh -->
     <Window.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
@@ -12,35 +14,47 @@
     </Window.Background>
 
     <Grid>
-        <!-- Tiêu đề hệ thống -->
-        <Label Content="Traffic Violation System"
-               FontSize="24" FontWeight="Bold"
-               Foreground="White"
-               HorizontalAlignment="Left" Margin="50,30,0,0"
-               VerticalAlignment="Top"/>
+        <Grid.ColumnDefinitions>
+            <!-- Cột Navbar -->
+            <ColumnDefinition Width="200"/>
+            <!-- Cột nội dung chính -->
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
-        <!-- Ảnh đại diện người dùng với menu dropdown -->
-        <Border Width="50" Height="50"
-                BorderBrush="White" BorderThickness="2"
-                HorizontalAlignment="Right" Margin="0,20,20,0"
-                VerticalAlignment="Top"
-                Cursor="Hand">
+        <!-- Navbar (Đặt trong Grid.Column="0") -->
+        <control:LeftNavbar Grid.Column="0" Loaded="LeftNavbar_Loaded"/>
 
-            <Image Name="UserAvatar"
-       Source="Images/avatar.jpg"
-       Stretch="Fill" Width="50" Height="50"
-       Cursor="Hand">
-                <Image.ContextMenu>
-                    <ContextMenu Focusable="True">
-                        <MenuItem Header="Xem Thông Tin" Click="ViewProfile_Click"/>
-                        <MenuItem Header="Đổi Mật Khẩu" Click="ChangePassword_Click"/>
-                        <Separator/>
-                        <MenuItem Header="Đăng Xuất" Click="Logout_Click"/>
-                    </ContextMenu>
-                </Image.ContextMenu>
-            </Image>
+        <!-- Nội dung chính (Grid.Column="1") -->
+        <Grid Grid.Column="1">
+            <!-- Tiêu đề hệ thống -->
+            <Label Content="Traffic Violation System"
+                   FontSize="24" FontWeight="Bold"
+                   Foreground="White"
+                   HorizontalAlignment="Left" Margin="50,30,0,0"
+                   VerticalAlignment="Top"/>
 
-        </Border>
+            <!-- Ảnh đại diện người dùng với menu dropdown -->
+            <Border Width="50" Height="50"
+                    BorderBrush="White" BorderThickness="2"
+                    HorizontalAlignment="Right" Margin="0,20,20,0"
+                    VerticalAlignment="Top"
+                    Cursor="Hand">
+
+                <Image Name="UserAvatar"
+                       Source="Images/avatar.jpg"
+                       Stretch="Fill" Width="50" Height="50"
+                       Cursor="Hand">
+                    <Image.ContextMenu>
+                        <ContextMenu Focusable="True">
+                            <MenuItem Header="Xem Thông Tin" Click="ViewProfile_Click"/>
+                            <MenuItem Header="Đổi Mật Khẩu" Click="ChangePassword_Click"/>
+                            <Separator/>
+                            <MenuItem Header="Đăng Xuất" Click="Logout_Click"/>
+                        </ContextMenu>
+                    </Image.ContextMenu>
+                </Image>
+            </Border>
+        </Grid>
 
     </Grid>
 </Window>

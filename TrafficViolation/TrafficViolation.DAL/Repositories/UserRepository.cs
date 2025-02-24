@@ -17,6 +17,15 @@ namespace TrafficViolation.DAL.Repositories
             user = context.Users.Where(u => u.Phone == phoneNumber && u.Password == password).FirstOrDefault();
             return user;
         }
-        
+
+        // Get User By ID
+        public User? GetUserByID(int id)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            User user = new User();
+            user = context.Users.Where(u => u.UserId == id).FirstOrDefault();
+            return user;
+
+        }
     }
 }

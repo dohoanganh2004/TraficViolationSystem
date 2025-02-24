@@ -35,5 +35,10 @@ namespace TrafficViolation
         {
             MessageBox.Show("Đăng Xuất");
         }
+
+        private void LeftNavbar_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

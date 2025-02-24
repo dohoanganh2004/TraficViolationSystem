@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\PC\Desktop\PRN212\TrafficViolation\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\
+C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\
 TrafficViolation
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\PC\Desktop\PRN212\TrafficViolation\TrafficViolation\TrafficViolation\App.xaml
-2-1376777318
+C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\App.xaml
+4-1254968174
 
-747981239
-246-2136605653
-Login.xaml;MainWindow.xaml;
+9-1435779309
+246-209231208
+Control\LeftNavbar.xaml;Login.xaml;MainWindow.xaml;UserControll\ViewProfile.xaml;
 
 True
 

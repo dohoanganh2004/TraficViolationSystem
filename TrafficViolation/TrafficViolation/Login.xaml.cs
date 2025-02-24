@@ -60,7 +60,7 @@ namespace TrafficViolation
                 MessageBox.Show("Invalid email or password!", "Wrong credential", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
-            Application.Current.Properties["LoginUser"] = user;
+            
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Hide();
