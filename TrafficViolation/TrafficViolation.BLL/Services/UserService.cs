@@ -21,11 +21,31 @@ namespace TrafficViolation.BLL.Services
 
 
         // Get User By ID
-        public User? ViewProfile(int id)
+        public User? GetUserByID(int id)
         {
             return _repository.GetUserByID(id);
 
         }
+        // get All User 
+        public List<User> getAllUser()
+        {
+            return _repository.getAllUser();
 
+        }
+
+        public  void UpdateProfile(User user)
+        {
+             _repository.UpdateUser(user);
+        }
+
+        public void CreateUser(User user)
+        {
+            _repository.AddUser(user);
+        }
+
+        public User? GetUserByPhoneAndEmail(string phone, string email)
+        {
+            return _repository.GetUserByPhoneAndEmail(phone, email);
+        }
     }
 }

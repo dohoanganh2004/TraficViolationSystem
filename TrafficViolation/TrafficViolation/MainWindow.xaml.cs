@@ -8,6 +8,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TrafficViolation.ReportControll;
+using TrafficViolation.UserControll;
+using TrafficViolation.ViolationControll;
 
 namespace TrafficViolation
 {
@@ -39,6 +42,47 @@ namespace TrafficViolation
         private void LeftNavbar_Loaded(object sender, RoutedEventArgs e)
         {
 
+        }
+
+     
+
+        private void UserManage_Click(object sender, RoutedEventArgs e)
+        {
+            ManageUser manageUser = new ManageUser();
+            manageUser.Show();
+            this.Close();
+        }
+
+    
+
+       
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btVolation_Click(object sender, RoutedEventArgs e)
+        {
+            ViolationManage violationManage = new ViolationManage();
+            violationManage.ShowDialog();
+            this.Close();
+        }
+
+        private void btReport_Click(object sender, RoutedEventArgs e)
+        {
+            ReportManage reportManage = new ReportManage(); 
+            reportManage.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -1,7 +1,8 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using Microsoft.VisualBasic.ApplicationServices;
+
 using TrafficViolation.BLL.Services;
+using TrafficViolation.DAL.Models;
 using TrafficViolation.UserControll;
 
 namespace TrafficViolation.Control
@@ -18,7 +19,7 @@ namespace TrafficViolation.Control
         {
             InitializeComponent();
         }
-        public User LogedInUser { get; set; }
+       
 
         private UserService _userService = new();
         private void Logout_Click(object sender, RoutedEventArgs e)
@@ -27,14 +28,14 @@ namespace TrafficViolation.Control
                 "Confirm", MessageBoxButton.YesNo, MessageBoxImage.Question);
             if (result == MessageBoxResult.Yes)
             {
-                LogedInUser = null;
+                // Xóa session
+                App.LoggedInUser = null;
 
-                // Mở cửa sổ Login trước khi đóng tất cả cửa sổ khác
+               
                 Login login = new Login();
                 login.Show();
 
-                // Đóng tất cả cửa sổ hiện tại (trừ cửa sổ Login vừa mở)
-                foreach (var window in Application.Current.Windows.Cast<Window>().ToList())
+                foreach (Window window in Application.Current.Windows.Cast<Window>().ToList())
                 {
                     if (window != login)
                     {
@@ -42,7 +43,7 @@ namespace TrafficViolation.Control
                     }
                 }
 
-                // Đặt Login làm cửa sổ chính
+                // Đặt cửa sổ chính là Login
                 Application.Current.MainWindow = login;
             }
         }
@@ -59,9 +60,18 @@ namespace TrafficViolation.Control
 
         private void Profile_Click(object sender, RoutedEventArgs e)
         {
-         ViewProfile viewProfile = new ViewProfile(); 
-            
-            viewProfile.Show();
+            if (App.LoggedInUser!= null)
+            {
+                User user = _userService.GetUserByID(App.LoggedInUser.UserId);
+                ViewProfile viewProfile = new ViewProfile(user);
+                viewProfile.Show();
+            }
+            else
+            {
+                MessageBox.Show("User profile not found!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
         }
+         
     }
 }

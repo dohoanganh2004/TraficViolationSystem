@@ -1,6 +1,7 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
+using TrafficViolation.DAL.Models;
 
 namespace TrafficViolation
 {
@@ -9,6 +10,7 @@ namespace TrafficViolation
     /// </summary>
     public partial class App : Application
     {
+        public static User? LoggedInUser { get; set; }
     }
 
 }

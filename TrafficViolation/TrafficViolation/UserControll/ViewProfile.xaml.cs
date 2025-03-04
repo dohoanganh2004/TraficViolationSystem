@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using TrafficViolation.DAL.Models;
 
 namespace TrafficViolation.UserControll
 {
@@ -19,8 +20,9 @@ namespace TrafficViolation.UserControll
     /// </summary>
     public partial class ViewProfile : Window
     {
-        public ViewProfile()
+        public ViewProfile(User user)
         {
+            DataContext = user;
             InitializeComponent();
         }
 

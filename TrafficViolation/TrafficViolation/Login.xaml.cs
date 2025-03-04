@@ -60,10 +60,21 @@ namespace TrafficViolation
                 MessageBox.Show("Invalid email or password!", "Wrong credential", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
-            
+            App.LoggedInUser = user;
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Hide();
+        }
+
+        private void CreateAccountButton_Click(object sender, RoutedEventArgs e)
+        {
+            CreateAccount createAccount = new CreateAccount();
+            createAccount.Show();
+        }
+
+        private void ForgotPasswordButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

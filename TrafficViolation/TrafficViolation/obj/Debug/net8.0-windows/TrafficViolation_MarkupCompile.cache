@@ -1,5 +1,5 @@
 ﻿TrafficViolation
-1.0.0.0
+
 
 winexe
 C#
@@ -8,13 +8,13 @@ C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficVio
 TrafficViolation
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\App.xaml
-4-1254968174
+11-1873102695
 
-9-1435779309
+141858825159
 246-209231208
-Control\LeftNavbar.xaml;Login.xaml;MainWindow.xaml;UserControll\ViewProfile.xaml;
+Control\LeftNavbar.xaml;CreateAccount.xaml;ForgotPassword.xaml;Login.xaml;MainWindow.xaml;ReportControll\ReportDetail.xaml;ReportControll\ReportManage.xaml;UserControll\ManageUser.xaml;UserControll\ViewProfile.xaml;ViolationControll\ViolationDetail.xaml;ViolationControll\ViolationManage.xaml;
 
-True
+False
 

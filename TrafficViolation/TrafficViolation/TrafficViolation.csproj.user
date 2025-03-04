@@ -10,15 +10,42 @@
     <Compile Update="Control\LeftNavbar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CreateAccount.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ForgotPassword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControll\ManageUser.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserControll\ViewProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ViolationControll\ViolationDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViolationControll\ViolationManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Control\LeftNavbar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateAccount.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ForgotPassword.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Login.xaml">
@@ -27,7 +54,22 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ReportControll\ReportDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControll\ManageUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UserControll\ViewProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViolationControll\ViolationDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViolationControll\ViolationManage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

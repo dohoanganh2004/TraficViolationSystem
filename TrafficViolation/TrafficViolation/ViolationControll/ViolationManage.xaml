@@ -1,0 +1,40 @@
+﻿<Window x:Class="TrafficViolation.ViolationControll.ViolationManage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrafficViolation.ViolationControll"
+        mc:Ignorable="d"
+        Title="ViolationManage" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid Background="LightBlue" Name="gridViolation" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <DataGrid Grid.Row="8" Grid.ColumnSpan="2" Name="GridViolation" AutoGenerateColumns="False" IsReadOnly="True" Margin="10,143,10,10" SelectionChanged="GridViolation_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="*" Header="Violation ID" Binding="{Binding ViolationId}"/>
+                    <DataGridTextColumn Width="*" Header="Violation Type" Binding="{Binding Report.ViolationType }"/>
+                    <DataGridTextColumn Width="*" Header="Plate Number" Binding="{Binding PlateNumber}"/>
+                    <DataGridTextColumn Width="*" Header="Violator" Binding="{Binding Violator.FullName}"/>
+                    <DataGridTextColumn Width="*" Header="Fine Amount" Binding="{Binding FineAmount}"/>
+                    <DataGridTextColumn Width="*" Header="Fine Date" Binding="{Binding FineDate, StringFormat=dd/MM/yyyy}"/>
+                    <DataGridCheckBoxColumn Width="*" Header="Paid Status" Binding="{Binding PaidStatus}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>
