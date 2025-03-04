@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Json;
 namespace TrafficViolation.DAL.Models;
 
 public partial class TrafficViolationContext : DbContext
@@ -36,8 +37,15 @@ public partial class TrafficViolationContext : DbContext
     public virtual DbSet<Violation> Violations { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DESKTOP-7KQPR9J;uid=sa;password=123456;database=TrafficViolation;Encrypt=True;TrustServerCertificate=True;");
+    {
+        var builder = new ConfigurationBuilder(); 
+        builder.SetBasePath(Directory.GetCurrentDirectory());
+        builder.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+        var configuration = builder.Build();
+        optionsBuilder.UseSqlServer(configuration.GetConnectionString("Default"));
+    }
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+    //    => optionsBuilder.UseSqlServer("Server=DESKTOP-7KQPR9J;uid=sa;password=123456;database=TrafficViolation;Encrypt=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
