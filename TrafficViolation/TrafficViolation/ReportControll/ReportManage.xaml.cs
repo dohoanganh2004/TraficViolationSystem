@@ -43,5 +43,6 @@ namespace TrafficViolation.ReportControll
                 reportDetail.Show();
             }
         }
+
     }
 }
