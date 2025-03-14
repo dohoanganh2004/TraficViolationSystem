@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Data",
+    "\\TrafficViolation",
+    "\\TrafficViolation\\TrafficViolation",
+    "\\TrafficViolation\\TrafficViolation.BLL",
+    "\\TrafficViolation\\TrafficViolation.DAL",
+    "\\TrafficViolation\\TrafficViolation.DAL\\Models"
+  ],
+  "SelectedNode": "\\TrafficViolation\\TrafficViolation\\MainWindow.xaml.cs",
+  "PreviewInSolutionExplorer": false
+}

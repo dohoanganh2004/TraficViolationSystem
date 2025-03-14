@@ -1,0 +1,27 @@
+﻿<Window x:Class="TrafficViolation.ReportControll.ReportManage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Report Manage" Height="450" Width="900">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#003366" Offset="0.0"/>
+            <GradientStop Color="#00AEEF" Offset="1.0"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <DataGrid HorizontalAlignment="Stretch" Height="310" Margin="10,114,10,0"
+                  VerticalAlignment="Top"
+                  AutoGenerateColumns="False"
+                  x:Name="gridReport"
+                  SelectionChanged="gridReport_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Report ID" Binding="{Binding ReportId}" Width="*" MinWidth="80"/>
+                <DataGridTextColumn Header="Reporter" Binding="{Binding Reporter.FullName}" Width="*" MinWidth="80"/>
+                <DataGridTextColumn Header="Violation Type" Binding="{Binding ViolationType}" Width="2*" MinWidth="150"/>
+                <DataGridTextColumn Header="Plate Number" Binding="{Binding PlateNumber}" Width="*" MinWidth="100"/>
+                <DataGridTextColumn Header="Report Date" Binding="{Binding ReportDate, StringFormat=yyyy-MM-dd}" Width="*" MinWidth="120"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*" MinWidth="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

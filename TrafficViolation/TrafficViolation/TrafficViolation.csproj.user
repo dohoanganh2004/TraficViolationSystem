@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Control\LeftNavbar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateAccount.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ForgotPassword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControll\ManageUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControll\ViewProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViolationControll\ViolationDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViolationControll\ViolationManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Control\LeftNavbar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateAccount.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ForgotPassword.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportDelete.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControll\ManageUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControll\ViewProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViolationControll\ViolationDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViolationControll\ViolationManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
