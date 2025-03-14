@@ -6,23 +6,32 @@
         mc:Ignorable="d"
         Height="Auto" Width="200">
 
-    <Grid Background="#003366">
-        <StackPanel>
-            <TextBlock Text="MENU" Foreground="White" FontSize="18"
+	<Grid Background="#003366">
+		<StackPanel>
+			<TextBlock Text="MENU" Foreground="White" FontSize="18"
                        FontWeight="Bold" Margin="10"/>
 
-            <Button Content="Dashboard" Click="Dashboard_Click" Margin="5"
+			<Button Content="Dashboard" Click="Dashboard_Click" Margin="5"
                     Background="Transparent" Foreground="White"/>
 
-            <Button Content="ChangePassword" Click="ChangePassword_Click" Margin="5"
+			<Button Content="ChangePassword" Click="ChangePassword_Click" Margin="5"
                     Background="Transparent" Foreground="White"/>
 
-            <Button Content="View Profile" Click="Profile_Click" Margin="5"
+			<Button Content="View Profile" Click="Profile_Click" Margin="5"
                     Background="Transparent" Foreground="White"/>
 
-            <Button Content="Logout" Click="Logout_Click" Margin="5"
+			<Button Content="Manage Complaints" Click="Complaints_Click" Margin="5"
                     Background="Transparent" Foreground="White"/>
-        </StackPanel>
-    </Grid>
+
+			<Button Content="Manage Payments" Click="Payments_Click" Margin="5"
+                    Background="Transparent" Foreground="White"/>
+
+			<Button Content="View Audit Logs" Click="AuditLogs_Click" Margin="5"
+                    Background="Transparent" Foreground="White"/>
+
+			<Button Content="Logout" Click="Logout_Click" Margin="5"
+                    Background="Transparent" Foreground="White"/>
+		</StackPanel>
+	</Grid>
 
 </UserControl>

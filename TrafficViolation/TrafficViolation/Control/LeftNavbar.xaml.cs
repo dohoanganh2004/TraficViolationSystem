@@ -1,37 +1,27 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-
 using TrafficViolation.BLL.Services;
 using TrafficViolation.DAL.Models;
 using TrafficViolation.UserControll;
 
 namespace TrafficViolation.Control
 {
-    /// <summary>
-    /// Interaction logic for LeftNavbar.xaml
-    /// </summary>
-    public partial class LeftNavbar : UserControl // Sửa từ Window thành UserControl
+    public partial class LeftNavbar : UserControl
     {
-
-
-       
         public LeftNavbar()
         {
             InitializeComponent();
         }
-       
 
         private UserService _userService = new();
+
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Do you want to logout?",
-                "Confirm", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            MessageBoxResult result = MessageBox.Show("Do you want to logout?", "Confirm", MessageBoxButton.YesNo, MessageBoxImage.Question);
             if (result == MessageBoxResult.Yes)
             {
-                // Xóa session
                 App.LoggedInUser = null;
 
-               
                 Login login = new Login();
                 login.Show();
 
@@ -43,24 +33,23 @@ namespace TrafficViolation.Control
                     }
                 }
 
-                // Đặt cửa sổ chính là Login
                 Application.Current.MainWindow = login;
             }
         }
 
         private void Dashboard_Click(object sender, RoutedEventArgs e)
         {
-
+            // Chuyển đến Dashboard
         }
 
         private void ChangePassword_Click(object sender, RoutedEventArgs e)
         {
-
+            // Thay đổi mật khẩu
         }
 
         private void Profile_Click(object sender, RoutedEventArgs e)
         {
-            if (App.LoggedInUser!= null)
+            if (App.LoggedInUser != null)
             {
                 User user = _userService.GetUserByID(App.LoggedInUser.UserId);
                 ViewProfile viewProfile = new ViewProfile(user);
@@ -69,9 +58,25 @@ namespace TrafficViolation.Control
             else
             {
                 MessageBox.Show("User profile not found!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
             }
         }
-         
+
+        private void Complaints_Click(object sender, RoutedEventArgs e)
+        {
+            ManageComplaints manageComplaints = new ManageComplaints();
+            manageComplaints.Show();
+        }
+
+        private void Payments_Click(object sender, RoutedEventArgs e)
+        {
+            ManagePayments managePayments = new ManagePayments();
+            managePayments.Show();
+        }
+
+        private void AuditLogs_Click(object sender, RoutedEventArgs e)
+        {
+            ViewAuditLogs viewAuditLogs = new ViewAuditLogs();
+            viewAuditLogs.Show();
+        }
     }
 }

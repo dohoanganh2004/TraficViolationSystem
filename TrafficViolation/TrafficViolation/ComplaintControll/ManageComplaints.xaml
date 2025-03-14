@@ -1,0 +1,21 @@
+﻿<Window x:Class="TrafficViolation.Views.ManageComplaints"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manage Complaints" Height="450" Width="800">
+	<Grid>
+		<DataGrid ItemsSource="{Binding Complaints}" AutoGenerateColumns="False">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Complaint ID" Binding="{Binding ComplaintId}" />
+				<DataGridTextColumn Header="User ID" Binding="{Binding UserId}" />
+				<DataGridTextColumn Header="Status" Binding="{Binding Status}" />
+				<DataGridTemplateColumn Header="Actions">
+					<DataGridTemplateColumn.CellTemplate>
+						<DataTemplate>
+							<Button Content="View" Command="{Binding DataContext.ViewComplaintCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding ComplaintId}" />
+						</DataTemplate>
+					</DataGridTemplateColumn.CellTemplate>
+				</DataGridTemplateColumn>
+			</DataGrid.Columns>
+		</DataGrid>
+	</Grid>
+</Window>

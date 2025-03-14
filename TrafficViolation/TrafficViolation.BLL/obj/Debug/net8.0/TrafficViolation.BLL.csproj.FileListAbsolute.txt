@@ -60,3 +60,6 @@ C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficVi
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation.BLL\obj\Debug\net8.0\TrafficViolation.BLL.sourcelink.json
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation.BLL\obj\Debug\net8.0\TrafficV.807FC1A0.Up2Date
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation.BLL\obj\Debug\net8.0\ref\TrafficViolation.BLL.dll
+C:\Users\khang\Desktop\TraficViolationSystem\TrafficViolation\TrafficViolation.BLL\obj\Debug\net8.0\TrafficViolation.BLL.dll
+C:\Users\khang\Desktop\TraficViolationSystem\TrafficViolation\TrafficViolation.BLL\obj\Debug\net8.0\refint\TrafficViolation.BLL.dll
+C:\Users\khang\Desktop\TraficViolationSystem\TrafficViolation\TrafficViolation.BLL\obj\Debug\net8.0\TrafficViolation.BLL.pdb

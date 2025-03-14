@@ -1,0 +1,22 @@
+﻿<Window x:Class="TrafficViolation.Views.ManagePayments"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manage Payments" Height="450" Width="800">
+	<Grid>
+		<DataGrid ItemsSource="{Binding Payments}" AutoGenerateColumns="False">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Payment ID" Binding="{Binding PaymentId}" />
+				<DataGridTextColumn Header="Violation ID" Binding="{Binding ViolationId}" />
+				<DataGridTextColumn Header="Amount" Binding="{Binding PaymentAmount}" />
+				<DataGridTextColumn Header="Status" Binding="{Binding PaymentStatus}" />
+				<DataGridTemplateColumn Header="Actions">
+					<DataGridTemplateColumn.CellTemplate>
+						<DataTemplate>
+							<Button Content="View" Command="{Binding DataContext.ViewPaymentCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding PaymentId}" />
+						</DataTemplate>
+					</DataGridTemplateColumn.CellTemplate>
+				</DataGridTemplateColumn>
+			</DataGrid.Columns>
+		</DataGrid>
+	</Grid>
+</Window>
