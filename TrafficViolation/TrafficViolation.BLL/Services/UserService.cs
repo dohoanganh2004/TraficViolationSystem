@@ -47,5 +47,10 @@ namespace TrafficViolation.BLL.Services
         {
             return _repository.GetUserByPhoneAndEmail(phone, email);
         }
+
+        public void UpdateUser(User user)
+        {
+            _repository.UpdateUser(user);
+        }
     }
 }

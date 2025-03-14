@@ -72,6 +72,10 @@ namespace TrafficViolation.Control
                 return;
             }
         }
-         
+
+        private void ToggleNavbar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

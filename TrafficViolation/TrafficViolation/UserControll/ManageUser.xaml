@@ -5,48 +5,73 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrafficViolation.UserControll"
         mc:Ignorable="d"
-        Title="ManageUser" Height="450" Width="800">
+        Title="Manage User" Height="500" Width="800">
     <Grid Background="LightBlue" Name="gridUser">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Label Grid.Row="0" Grid.Column="0" Content="Full Name:"/>
-        <Label Grid.Row="1" Grid.Column="0" Content="Email:"/>
-        <Label Grid.Row="2" Grid.Column="0" Content="Phone:"/>
-        <Label Grid.Row="3" Grid.Column="0" Content="Password:"/>
-        <Label Grid.Row="4" Grid.Column="0" Content="Role:"/>
-        <Label Grid.Row="5" Grid.Column="0" Content="Address:"/>
-        <Label Grid.Row="6" Grid.Column="0" Content="Image:"/>
+        <!-- Labels and Inputs -->
+        <Label Grid.Row="0" Grid.Column="0" Content="User ID:"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="3" Width="300" Name="txtUserId" IsReadOnly="True"/>
 
-        <TextBox Grid.Row="0" Grid.Column="1" Margin="3" Width="300" HorizontalAlignment="Left" Name="txtFullName"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Margin="3" Width="300" HorizontalAlignment="Left" Name="txtEmail"/>
-        <TextBox Grid.Row="2" Grid.Column="1" Margin="3" Width="300" HorizontalAlignment="Left" Name="txtPhone"/>
-        <PasswordBox Grid.Row="3" Grid.Column="1" Margin="3" Width="300" HorizontalAlignment="Left" Name="txtPassword"/>
-        <ComboBox Grid.Row="4" Grid.Column="1" Margin="3" Width="300" HorizontalAlignment="Left" Name="cbRole"/>
-        <TextBox Grid.Row="5" Grid.Column="1" Margin="3" Width="300" HorizontalAlignment="Left" Name="txtAddress"/>
-        <TextBox Grid.Row="6" Grid.Column="1" Margin="3" Width="300" HorizontalAlignment="Left" Name="txtImage"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="Full Name:"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="3" Width="300" Name="txtFullName"/>
 
-        <StackPanel Grid.Row="7" Grid.Column="1" Orientation="Horizontal">
-            <Button MinWidth="80" Margin="3" Content="Add" Name="btnAddUser" Click="addUser_Click"/>
-            <Button MinWidth="80" Margin="3" Content="Update" Name="btnUpdateUser"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Email:"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="3" Width="300" Name="txtEmail"/>
+
+        <Label Grid.Row="3" Grid.Column="0" Content="Phone:"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Margin="3" Width="300" Name="txtPhone"/>
+
+        <Label Grid.Row="4" Grid.Column="0" Content="Password:"/>
+        <PasswordBox Grid.Row="4" Grid.Column="1" Margin="3" Width="300" Name="txtPassword"/>
+
+        <Label Grid.Row="5" Grid.Column="0" Content="Role:"/>
+        <ComboBox Grid.Row="5" Grid.Column="1" Margin="3" Width="300" Name="cbRole"/>
+
+        <Label Grid.Row="6" Grid.Column="0" Content="Address:"/>
+        <TextBox Grid.Row="6" Grid.Column="1" Margin="3" Width="300" Name="txtAddress"/>
+
+        <Label Grid.Row="7" Grid.Column="0" Content="Image:"/>
+        <TextBox Grid.Row="7" Grid.Column="1" Margin="3" Width="300" Name="txtImage"/>
+
+        <!-- Search and Filter -->
+        <StackPanel Grid.Row="8" Grid.Column="1" Orientation="Horizontal" Margin="3">
+            <Label Content="Search by Name:" VerticalAlignment="Center"/>
+            <TextBox Width="200" Name="txtSearchName"/>
+            <Button Content="Search" Name="btnSearch" Click="btnSearch_Click" Margin="5,0,0,0"/>
+
+            <Label Content="Filter by Role:" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            <ComboBox Width="150" Name="cbFilterRole"/>
+            <Button Content="Filter" Name="btnFilter" Click="btnFilter_Click" Margin="5,0,0,0"/>
         </StackPanel>
 
-        <DataGrid Grid.Row="8" Grid.ColumnSpan="2" Name="GridUser" AutoGenerateColumns="False" IsReadOnly="True" Margin="-3,0,3,0">
+        <!-- Buttons -->
+        <StackPanel Grid.Row="9" Grid.Column="1" Orientation="Horizontal">
+            <Button MinWidth="80" Margin="3" Content="Add" Name="btnAddUser" Click="addUser_Click"/>
+            <Button MinWidth="80" Margin="3" Content="Update" Name="btnUpdateUser" Click="btnUpdateUser_Click"/>
+        </StackPanel>
+
+        <!-- DataGrid -->
+        <DataGrid Grid.Row="10" Grid.ColumnSpan="2" Name="GridUser" AutoGenerateColumns="False" IsReadOnly="True" 
+                  Margin="-3,0,3,0" SelectionChanged="GridUser_SelectionChanged">
             <DataGrid.Columns>
-                <DataGridTextColumn Width="*" Header="UserID" Binding="{Binding UserId}"/>
+                <DataGridTextColumn Width="*" Header="User ID" Binding="{Binding UserId}"/>
                 <DataGridTextColumn Width="*" Header="Full Name" Binding="{Binding FullName}"/>
                 <DataGridTextColumn Width="*" Header="Email" Binding="{Binding Email}"/>
                 <DataGridTextColumn Width="*" Header="Phone" Binding="{Binding Phone}"/>

@@ -21,6 +21,7 @@
                 <DataGridTextColumn Header="Plate Number" Binding="{Binding PlateNumber}" Width="*" MinWidth="100"/>
                 <DataGridTextColumn Header="Report Date" Binding="{Binding ReportDate, StringFormat=yyyy-MM-dd}" Width="*" MinWidth="120"/>
                 <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*" MinWidth="100"/>
+                <DataGridTextColumn Header="ProcessBy" Binding="{Binding ProcessedByNavigation.FullName}" Width="*" MinWidth="120"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

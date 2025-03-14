@@ -19,6 +19,9 @@
     <Compile Update="Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="NotificationControll\NotificationManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ReportControll\ReportDetail.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -29,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserControll\ViewProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViolationControll\CreateViolation.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViolationControll\ViolationDetail.xaml.cs">
@@ -54,6 +60,9 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="NotificationControll\NotificationManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ReportControll\ReportDetail.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -64,6 +73,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControll\ViewProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViolationControll\CreateViolation.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViolationControll\ViolationDetail.xaml">

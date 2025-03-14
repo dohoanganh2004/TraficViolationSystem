@@ -274,3 +274,7 @@ C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficVio
 C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportDetail.baml
 C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ViolationControll\ViolationDetail.baml
 C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ViolationControll\ViolationDetail.g.cs
+C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ViolationControll\CreateViolation.g.cs
+C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ViolationControll\CreateViolation.baml
+C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\NotificationControll\NotificationManage.g.cs
+C:\Users\PC\Desktop\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\NotificationControll\NotificationManage.baml

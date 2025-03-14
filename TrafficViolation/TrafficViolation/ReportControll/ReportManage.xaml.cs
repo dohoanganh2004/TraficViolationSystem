@@ -40,7 +40,11 @@ namespace TrafficViolation.ReportControll
             if (gridReport.SelectedItem is Report selectedReport)
             {
                 ReportDetail reportDetail = new ReportDetail(selectedReport);
+               
                 reportDetail.Show();
+                this.Close();
+                 
+                
             }
         }
     }
