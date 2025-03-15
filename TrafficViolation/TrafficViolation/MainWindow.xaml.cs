@@ -56,9 +56,11 @@ namespace TrafficViolation
     
 
        
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void btReportView_Click(object sender, RoutedEventArgs e)
         {
-
+            ReportView reportView = new ReportView();
+            reportView.ShowDialog();
+            this.Close();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)

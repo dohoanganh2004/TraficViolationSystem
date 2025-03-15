@@ -65,6 +65,58 @@ namespace TrafficViolation.DAL.Repositories
                               .ToList();
             }
         }
+        public List<Report> GetAllReportsByUserID(int reportId)
+        {
+            using (TrafficViolationContext context = new TrafficViolationContext()) 
+            {
+                return context.Reports.Where(r => r.ReporterId == reportId).ToList();
+            }
+        }
+        public void UpdateReport(Report report)
+        {
+            using (TrafficViolationContext context = new TrafficViolationContext())
+            {
+                var existingReport = context.Reports.FirstOrDefault(r => r.ReportId == report.ReportId);
+                if (existingReport != null)
+                {
+                    existingReport.ViolationType = report.ViolationType;
+                    existingReport.Description = report.Description;
+                    existingReport.PlateNumber = report.PlateNumber;
+                    existingReport.Location = report.Location;
+                    existingReport.ReportDate = report.ReportDate;
+                    existingReport.Status = report.Status;
 
+                    context.SaveChanges();
+                }
+            }
+        }
+        public void DelelteReport(int reportId)
+        {
+            using (TrafficViolationContext context = new TrafficViolationContext())
+            {
+                var report = context.Reports.Find(reportId);
+                if (report != null)
+                {
+                    context.Reports.Remove(report);
+                    context.SaveChanges();
+                }
+            }
+        }
+            
+        
+        public bool AddReportByUser3(Report report)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            try
+            {
+                context.Reports.Add(report);
+                context.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
     }
 }

@@ -11,6 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.VisualBasic.ApplicationServices;
+using TrafficViolation.BLL.Services;
+using TrafficViolation.DAL.Models;
 
 namespace TrafficViolation.ReportControll
 {
@@ -19,9 +22,53 @@ namespace TrafficViolation.ReportControll
     /// </summary>
     public partial class ReportView : Window
     {
+        public ReportService reportService = new ReportService();
+        int userId = App.LoggedInUser?.UserId ?? 0;
+
         public ReportView()
         {
             InitializeComponent();
+
+            GetAllReportById();
         }
+
+        public void GetAllReportById()
+        {
+
+            var reports = reportService.GetAllReportsByUserID(3);
+            dgReports.ItemsSource = reports;
+        }
+        public void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            dgReports.CommitEdit();
+            if (dgReports.SelectedItem is Report selectedReport)
+            {
+                reportService.UpdateReport(selectedReport);
+                GetAllReportById();
+            }
+        }
+        public void DeleteButton_Click(Object sender, RoutedEventArgs e)
+        {
+            if (dgReports.SelectedItem is Report selectedReport)
+            {
+                reportService.DeleteReport(selectedReport.ReportId);
+                GetAllReportById();
+            }
+        }
+
+        
+        public void CreateReportButton_Click(object sender, RoutedEventArgs e)
+        {
+            ReportAdd reportAdd = new ReportAdd();
+            reportAdd.Show();
+            this.Close();
+        }
+        public void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
+        }
+
     }
 }

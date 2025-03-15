@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\App.xaml
-152042659722
+141711478277
 
-20164724652
+19-1099280442
 246-603598361
-Control\LeftNavbar.xaml;CreateAccount.xaml;ForgotPassword.xaml;Login.xaml;MainWindow.xaml;ReportControll\ReportAdd.xaml;ReportControll\ReportDelete.xaml;ReportControll\ReportDetail.xaml;ReportControll\ReportManage.xaml;ReportControll\ReportUpdate.xaml;ReportControll\ReportView.xaml;UserControll\ManageUser.xaml;UserControll\ViewProfile.xaml;ViolationControll\ViolationDetail.xaml;ViolationControll\ViolationManage.xaml;
+Control\LeftNavbar.xaml;CreateAccount.xaml;ForgotPassword.xaml;Login.xaml;MainWindow.xaml;ReportControll\ReportAdd.xaml;ReportControll\ReportDelete.xaml;ReportControll\ReportDetail.xaml;ReportControll\ReportManage.xaml;ReportControll\ReportView.xaml;UserControll\ManageUser.xaml;UserControll\ViewProfile.xaml;ViolationControll\ViolationDetail.xaml;ViolationControll\ViolationManage.xaml;
 
 False
 

@@ -28,25 +28,36 @@ namespace TrafficViolation.ReportControll
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            ReportRepository reportRepository = new ReportRepository();
-            Report newReport= new Report()
+            if (App.LoggedInUser == null)
             {
+                MessageBox.Show("You must be logged in to submit a report.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
 
+            ReportRepository reportRepository = new ReportRepository();
+            Report newReport = new Report()
+            {
+                ReporterId = 3,
                 PlateNumber = txtPlateNumber.Text,
-                ViolationType = (cbViolationType.SelectedItem as ComboBoxItem)?.Content.ToString(),
+                ViolationType = "Chờ xử lí",
                 Description = txtDescription.Text,
                 ImageUrl = txtImageUrl.Text,
                 VideoUrl = txtVideoUrl.Text,
                 Location = txtLocation.Text,
                 ReportDate = DateTime.Now
             };
-
-
-            reportRepository.AddReport(newReport);
+            reportRepository.AddReportByUser3(newReport);
+            //ReportAdd report = new ReportAdd();
+            //report.Show();
+            ReportView reportView = new ReportView();
+            reportView.Show();
+            this.Close();
         }
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {
+            ReportView reportView = new ReportView();
+            reportView.Show();
             this.Close();
         }
     }

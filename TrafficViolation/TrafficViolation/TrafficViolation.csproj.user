@@ -31,9 +31,6 @@
     <Compile Update="ReportControll\ReportManage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ReportControll\ReportUpdate.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="ReportControll\ReportView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -76,9 +73,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportControll\ReportManage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="ReportControll\ReportUpdate.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportControll\ReportView.xaml">
