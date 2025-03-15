@@ -1,13 +1,10 @@
 ﻿<Window x:Class="TrafficViolation.ReportControll.ReportDetail"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Chi Tiết Phản Ánh" Height="500" Width="800">
-    <Window.Background>
-        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-            <GradientStop Color="#003366" Offset="0.0"/>
-            <GradientStop Color="#00AEEF" Offset="1.0"/>
-        </LinearGradientBrush>
-    </Window.Background>
+        Title="Chi Tiết Phản Ánh" Height="700" Width="1000"
+        Background="LightBlue"
+        WindowStartupLocation="CenterScreen">
+
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -22,53 +19,85 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="500"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        <TextBlock Text="Chi Tiết Phản Ánh" 
+           Foreground="Red" 
+           FontSize="24" 
+           FontWeight="Bold"
+           HorizontalAlignment="Center"
+           Margin="0,10,0,10" Width="480"/>
+        <TextBlock Text="Mã phản ánh:" Foreground="Black" FontSize="14" Grid.Row="1" Grid.Column="0" Margin="5"/>
+        <TextBlock Text="Người phản ánh:" Foreground="Black" FontSize="14" Grid.Row="3" Grid.Column="0" Margin="5"/>
+        <TextBlock Text="Loại vi phạm:" Foreground="Black" FontSize="14" Grid.Row="5" Grid.Column="0" Margin="5"/>
+        <TextBlock Text="Mô tả chi tiết:" Foreground="Black" FontSize="14" Grid.Row="7" Grid.Column="0" Margin="5"/>
+        <TextBlock Text="Biển số xe:" Foreground="Black" FontSize="14" Grid.Row="9" Grid.Column="0" Margin="5"/>
+        <TextBlock Text="Hình ảnh:" Foreground="Black" FontSize="14" Grid.Row="1" Grid.Column="1" Margin="5"/>
+        <TextBlock Text="Video:" Foreground="Black" FontSize="14" Grid.Row="7" Grid.Column="1" Margin="5,10,5,5"/>
+        <TextBlock Text="Ngày phản ánh:" Foreground="Black" FontSize="14" Grid.Row="11" Grid.Column="0" Margin="5"/>
+        <TextBlock Text="Trạng thái:" Foreground="Black" FontSize="14" Grid.Row="13" Grid.Column="0" Margin="5"/>
+        <TextBlock Text="Người xử lý:" Foreground="Black" FontSize="14" Grid.Row="9" Grid.Column="1" Margin="5"/>
 
-        <TextBlock Text="Mã phản ánh:" Foreground="White" FontSize="14" Grid.Row="0" Grid.Column="0" Margin="5"/>
-        <TextBox Grid.Row="0" Grid.Column="1" Margin="5" Text="{Binding ReportId}"/>
 
-        <TextBlock Text="Người phản ánh:" Foreground="White" FontSize="14" Grid.Row="1" Grid.Column="0" Margin="5"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Margin="5" Text="{Binding Reporter.FullName}"/>
+        <TextBox Grid.Row="2" Grid.Column="0" Margin="5" Name="txtReportID" 
+          Text="{Binding ReportId}" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtReporterId" Text="{Binding ReporterId}" Visibility="Hidden"/>
+        <TextBox Grid.Row="4" Grid.Column="0" Margin="5" Name="txtReporterName" 
+          Text="{Binding Reporter.FullName}" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Grid.Row="6" Grid.Column="0" Margin="5" Name="txtViolationType" 
+          Text="{Binding ViolationType}" IsReadOnly="True" IsEnabled="False"/>
 
-        <TextBlock Text="Loại vi phạm:" Foreground="White" FontSize="14" Grid.Row="2" Grid.Column="0" Margin="5"/>
-        <TextBox Grid.Row="2" Grid.Column="1" Margin="5" Text="{Binding ViolationType}"/>
+        <TextBox Grid.Row="8" Grid.Column="0" Margin="5" Height="80" TextWrapping="Wrap" AcceptsReturn="True" 
+          Name="txtDescription" Text="{Binding Description}" IsReadOnly="True" IsEnabled="False"/>
 
-        <TextBlock Text="Mô tả chi tiết:" Foreground="White" FontSize="14" Grid.Row="3" Grid.Column="0" Margin="5"/>
-        <TextBox Grid.Row="3" Grid.Column="1" Margin="5" Height="80" TextWrapping="Wrap" AcceptsReturn="True" Text="{Binding Description}"/>
+        <TextBox Grid.Row="10" Grid.Column="0" Margin="5" Name="txtPlateNumber" 
+          Text="{Binding PlateNumber}" IsReadOnly="True" IsEnabled="False"/>
 
-        <TextBlock Text="Biển số xe:" Foreground="White" FontSize="14" Grid.Row="4" Grid.Column="0" Margin="5"/>
-        <TextBox Grid.Row="4" Grid.Column="1" Margin="5" Text="{Binding PlateNumber}"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="5" Name="txtImageUrl" 
+          Text="{Binding ImageUrl}" IsReadOnly="True" IsEnabled="False"/>
 
-        <TextBlock Text="Hình ảnh:" Foreground="White" FontSize="14" Grid.Row="5" Grid.Column="0" Margin="5"/>
-        <TextBox Grid.Row="5" Grid.Column="1" Margin="5" Text="{Binding ImageUrl}"/>
+        <TextBox Grid.Row="8" Grid.Column="1" Margin="5" Name="txtVideoUrl" 
+          Text="{Binding VideoUrl}" IsReadOnly="True" IsEnabled="False"/>
 
-        <TextBlock Text="Video:" Foreground="White" FontSize="14" Grid.Row="6" Grid.Column="0" Margin="5"/>
-        <TextBox Grid.Row="6" Grid.Column="1" Margin="5" Text="{Binding VideoUrl}"/>
+        <TextBox Grid.Row="12" Grid.Column="0" Margin="5" Name="txtReportDate" 
+          Text="{Binding ReportDate}" IsReadOnly="True" IsEnabled="False"/>
 
-        <TextBlock Text="Địa điểm:" Foreground="White" FontSize="14" Grid.Row="7" Grid.Column="0" Margin="5"/>
-        
-        <TextBox Grid.Row="7" Grid.Column="1" Margin="5" Text="{Binding Location}"/>
+        <TextBox Grid.Row="14" Grid.Column="0" Margin="5,5,5,31" Name="txtStatus" Text="{Binding Status}" IsReadOnly="False" IsEnabled="True"/>
+        <TextBox Grid.Row="10" Grid.Column="1" Margin="5" Name="txtProcessedBy" Text="{Binding ProcessedByNavigation.FullName}"/>
 
-        <TextBlock Text="Ngày phản ánh:" Foreground="White" FontSize="14" Grid.Row="8" Grid.Column="0" Margin="5"/>
-        <TextBox Grid.Row="8" Grid.Column="1" Margin="5" Text="{Binding ReportDate }"/>
 
-        <TextBlock Text="Trạng thái:" Foreground="White" FontSize="14" Grid.Row="9" Grid.Column="0" Margin="5"/>
-        <TextBox Grid.Row="9" Grid.Column="1" Margin="5" Text="{Binding Status}"/>
-
-        <TextBlock Text="Người xử lý:" Foreground="White" FontSize="14" Grid.Row="10" Grid.Column="0" Margin="5"/>
-        <TextBox Grid.Row="10" Grid.Column="1" Margin="5" Text="{Binding ProcessedBy }"/>
-
-        <Grid Grid.Row="11" Grid.ColumnSpan="2" Margin="10">
+        <Grid Grid.Row="16" Grid.ColumnSpan="2" Margin="10">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button Content="Xác nhận" Width="100" Margin="5" Grid.Column="0" HorizontalAlignment="Right" Name="btConfirm" Click="btConfirm_Click"/>
-            <Button Content="Đóng" Width="100" Margin="5" Grid.Column="1" HorizontalAlignment="Left" Name="btClose" Click="btClose_Click"/>
+
+            <Button Content="Tạo Biên Bản" Width="120" Height="40" 
+            HorizontalAlignment="Center"
+            Name="btCompile" Click="btConfirm_Click" 
+            Grid.Column="0" Background="Green" Foreground="White"/>
+
+            <Button Content="Từ chối" Width="120" Height="40" 
+            HorizontalAlignment="Center"
+            Name="btRefuse" Click="btRefuse_Click" 
+            Grid.Column="1" Background="Red" Foreground="White"/>
+
+            <Button Content="Đóng" Width="120" Height="40" 
+            HorizontalAlignment="Center"
+            Name="btClose" Click="btClose_Click" 
+            Grid.Column="2" Background="Gray" Foreground="White"/>
         </Grid>
+
+
     </Grid>
 </Window>
