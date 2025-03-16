@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\PC\Desktop\ProjectPRN\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\App.xaml
-13-893541929
+16-1603928253
 
-16-656257743
+19-1901389686
 246372621085
-Control\LeftNavbar.xaml;CreateAccount.xaml;ForgotPassword.xaml;Login.xaml;MainWindow.xaml;NotificationControll\NotificationManage.xaml;ReportControll\ReportDetail.xaml;ReportControll\ReportManage.xaml;UserControll\ManageUser.xaml;UserControll\ViewProfile.xaml;ViolationControll\CreateViolation.xaml;ViolationControll\ViolationDetail.xaml;ViolationControll\ViolationManage.xaml;
+Control\LeftNavbar.xaml;CreateAccount.xaml;ForgotPassword.xaml;Login.xaml;MainWindow.xaml;NotificationControll\NotificationManage.xaml;ReportControll\ReportAdd.xaml;ReportControll\ReportDelete.xaml;ReportControll\ReportDetail.xaml;ReportControll\ReportManage.xaml;ReportControll\ReportView.xaml;UserControll\ManageUser.xaml;UserControll\ViewProfile.xaml;ViolationControll\CreateViolation.xaml;ViolationControll\ViolationDetail.xaml;ViolationControll\ViolationManage.xaml;
 
 False
 

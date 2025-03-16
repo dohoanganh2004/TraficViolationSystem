@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "TrafficViolation/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Analyzers": "8.0.6",
           "TrafficViolation.BLL": "1.0.0"
         },
         "runtime": {
@@ -619,6 +620,7 @@
       },
       "TrafficViolation.BLL/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Analyzers": "8.0.6",
           "TrafficViolation.DAL": "1.0.0"
         },
         "runtime": {
@@ -631,6 +633,7 @@
       "TrafficViolation.DAL/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.EntityFrameworkCore.Analyzers": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Configuration.Json": "8.0.0"

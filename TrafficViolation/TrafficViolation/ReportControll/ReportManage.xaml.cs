@@ -117,6 +117,7 @@ namespace TrafficViolation.ReportControll
             }
         }
 
+
         private void btnSort_Click(object sender, RoutedEventArgs e)
         {
             var reportList = gridReport.ItemsSource as List<Report>;
@@ -136,5 +137,6 @@ namespace TrafficViolation.ReportControll
             
             gridReport.ItemsSource = reportList;
         }
+
     }
 }

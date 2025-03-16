@@ -92,7 +92,7 @@
             Name="btRefuse" Click="btRefuse_Click" 
             Grid.Column="1" Background="Red" Foreground="White"/>
 
-            <Button Content="Đóng" Width="120" Height="40" 
+            <Button Content="Đóng" Width="120" 
             HorizontalAlignment="Center"
             Name="btClose" Click="btClose_Click" 
             Grid.Column="2" Background="Gray" Foreground="White"/>

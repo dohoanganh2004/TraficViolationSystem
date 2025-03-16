@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\violationcontroll\\violationmanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\violationcontroll\\violationmanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\violationcontroll\\createviolation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\violationcontroll\\createviolation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\violationcontroll\\violationdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\violationcontroll\\violationdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,54 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReportDetail.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml",
-              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportDetail.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml",
-              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportDetail.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T19:00:58.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateViolation.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\CreateViolation.xaml",
-              "RelativeDocumentMoniker": "TrafficViolation\\ViolationControll\\CreateViolation.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\CreateViolation.xaml",
-              "RelativeToolTip": "TrafficViolation\\ViolationControll\\CreateViolation.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T18:59:29.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ViolationDetail.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\ViolationDetail.xaml",
-              "RelativeDocumentMoniker": "TrafficViolation\\ViolationControll\\ViolationDetail.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\ViolationDetail.xaml",
-              "RelativeToolTip": "TrafficViolation\\ViolationControll\\ViolationDetail.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T18:59:27.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViolationManage.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\ViolationManage.xaml",
-              "RelativeDocumentMoniker": "TrafficViolation\\ViolationControll\\ViolationManage.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\ViolationManage.xaml",
-              "RelativeToolTip": "TrafficViolation\\ViolationControll\\ViolationManage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T18:59:26.045Z",
-              "EditorCaption": ""
             }
           ]
         }

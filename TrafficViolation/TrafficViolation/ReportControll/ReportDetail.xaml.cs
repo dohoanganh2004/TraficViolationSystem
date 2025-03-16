@@ -39,7 +39,9 @@ namespace TrafficViolation.ReportControll
 
         private void btClose_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
+            ReportManage reportManage = new ReportManage();
+            reportManage.Show();
         }
 
         private void btConfirm_Click(object sender, RoutedEventArgs e)
