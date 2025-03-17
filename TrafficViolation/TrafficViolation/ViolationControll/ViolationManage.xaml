@@ -5,36 +5,57 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrafficViolation.ViolationControll"
         mc:Ignorable="d"
-        Title="ViolationManage" Height="450" Width="800">
-    <Grid Margin="10">
-        <Grid Background="LightBlue" Name="gridViolation" Margin="10">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+        Title="Quản Lý Vi Phạm" Height="500" Width="900"
+        Background="LightBlue"
+        WindowStartupLocation="CenterScreen">
 
-            <DataGrid Grid.Row="8" Grid.ColumnSpan="2" Name="GridViolation" AutoGenerateColumns="False" IsReadOnly="True" Margin="10,143,10,10" SelectionChanged="GridViolation_SelectionChanged">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Width="*" Header="Violation ID" Binding="{Binding ViolationId}"/>
-                    <DataGridTextColumn Width="*" Header="Violation Type" Binding="{Binding Report.ViolationType }"/>
-                    <DataGridTextColumn Width="*" Header="Plate Number" Binding="{Binding PlateNumber}"/>
-                    <DataGridTextColumn Width="*" Header="Violator" Binding="{Binding Violator.FullName}"/>
-                    <DataGridTextColumn Width="*" Header="Fine Amount" Binding="{Binding FineAmount}"/>
-                    <DataGridTextColumn Width="*" Header="Fine Date" Binding="{Binding FineDate, StringFormat=dd/MM/yyyy}"/>
-                    <DataGridCheckBoxColumn Width="*" Header="Paid Status" Binding="{Binding PaidStatus}"/>
-                </DataGrid.Columns>
-            </DataGrid>
-        </Grid>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Tiêu đề -->
+        <TextBlock Text="Quản Lý Vi Phạm" 
+                   Foreground="Red" 
+                   FontSize="24" 
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,10,0,10"/>
+
+        <!-- Khu vực tìm kiếm -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,5,0,5">
+            <Label Content="Biển số xe:" VerticalAlignment="Center"/>
+            <TextBox Name="txtSearchPlate" Width="200" Margin="5,0"/>
+            <Label Content="Tên người vi phạm:" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            <TextBox Name="txtSearchName" Width="200" Margin="5,0"/>
+            <Button Content="Tìm Kiếm" Width="100" Margin="10,0" Click="btnSearch_Click"/>
+        </StackPanel>
+
+        <!-- Sắp xếp -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,5,0,5">
+            <Label Content="Sắp xếp theo ngày phạt:" VerticalAlignment="Center"/>
+            <ComboBox Name="cbSortByDate" Width="150" Margin="5,0">
+                <ComboBoxItem Content="Mới nhất" IsSelected="True"/>
+                <ComboBoxItem Content="Cũ nhất"/>
+            </ComboBox>
+            <Button Content="Sắp Xếp" Width="100" Margin="10,0" Click="btnSort_Click"/>
+        </StackPanel>
+
+        <!-- DataGrid hiển thị danh sách vi phạm -->
+        <DataGrid Grid.Row="3" Name="GridViolation" AutoGenerateColumns="False" IsReadOnly="True"
+                  Margin="0,10,0,0" SelectionChanged="GridViolation_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="50" Header="ID" Binding="{Binding ViolationId}"/>
+                <DataGridTextColumn Width="200" Header="Lỗi Vi Phạm" Binding="{Binding Report.ViolationType}"/>
+                <DataGridTextColumn Width="*" Header="Biển Số Xe" Binding="{Binding PlateNumber}"/>
+                <DataGridTextColumn Width="*" Header="Người Vi Phạm" Binding="{Binding Violator.FullName}"/>
+                <DataGridTextColumn Width="*" Header="Tiền Phạt" Binding="{Binding FineAmount}"/>
+                <DataGridTextColumn Width="100" Header="Ngày Phạt" Binding="{Binding FineDate, StringFormat=dd/MM/yyyy}"/>
+                <DataGridCheckBoxColumn Width="70" Header="Đóng Phạt" Binding="{Binding PaidStatus}"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

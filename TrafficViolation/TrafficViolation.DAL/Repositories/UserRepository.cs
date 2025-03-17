@@ -49,6 +49,8 @@ namespace TrafficViolation.DAL.Repositories
             context.SaveChanges();
         }
 
+       
+
         public User? GetUserByPhoneAndEmail(string phoneNumber, string email)
         {
             TrafficViolationContext context = new TrafficViolationContext();
@@ -56,6 +58,8 @@ namespace TrafficViolation.DAL.Repositories
             user = context.Users.Where(u => u.Phone == phoneNumber && u.Email== email).FirstOrDefault();
             return user;
         }
+
+
 
 
     }

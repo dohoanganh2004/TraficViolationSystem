@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\
+C:\Users\PC\Desktop\ProjectPRN\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\
 TrafficViolation
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\App.xaml
-141711478277
+C:\Users\PC\Desktop\ProjectPRN\ProjectPRN\TraficViolationSystem\TrafficViolation\TrafficViolation\App.xaml
+16-1603928253
 
-19-1099280442
-246-603598361
-Control\LeftNavbar.xaml;CreateAccount.xaml;ForgotPassword.xaml;Login.xaml;MainWindow.xaml;ReportControll\ReportAdd.xaml;ReportControll\ReportDelete.xaml;ReportControll\ReportDetail.xaml;ReportControll\ReportManage.xaml;ReportControll\ReportView.xaml;UserControll\ManageUser.xaml;UserControll\ViewProfile.xaml;ViolationControll\ViolationDetail.xaml;ViolationControll\ViolationManage.xaml;
+21680603952
+246372621085
+Control\LeftNavbar.xaml;CreateAccount.xaml;ForgotPassword.xaml;Login.xaml;MainWindow.xaml;NotificationControll\NotificationManage.xaml;ReportControll\ReportAdd.xaml;ReportControll\ReportDelete.xaml;ReportControll\ReportDetail.xaml;ReportControll\ReportManage.xaml;ReportControll\ReportView.xaml;UserControll\ManageUser.xaml;UserControll\ViewProfile.xaml;ViolationControll\CreateViolation.xaml;ViolationControll\ViolationDetail.xaml;ViolationControll\ViolationManage.xaml;
 
-False
+True
 

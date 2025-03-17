@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TrafficViolation.NotificationControll;
 using TrafficViolation.ReportControll;
 using TrafficViolation.UserControll;
 using TrafficViolation.ViolationControll;
@@ -65,7 +66,9 @@ namespace TrafficViolation
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+           NotificationManage notificationManage = new NotificationManage();
+            notificationManage.Show();
+            this.Close();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)

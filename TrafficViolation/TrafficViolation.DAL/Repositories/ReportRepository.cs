@@ -13,13 +13,21 @@ namespace TrafficViolation.DAL.Repositories
         public List<Report> GetAllReport()
         {
             TrafficViolationContext context = new TrafficViolationContext();
-            return context.Reports.Include(r => r.Reporter).ToList();
+            return context.Reports.Include(r => r.Reporter).Include(r => r.ProcessedByNavigation).ToList();
         }
 
         public Report? GetReportByID(int id)
         {
             TrafficViolationContext context = new TrafficViolationContext();
             return context.Reports.Where(r => r.ReportId == id).FirstOrDefault();
+        }
+
+
+        public void EditReport(Report report)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            context.Reports.Update(report);
+            context.SaveChanges();
         }
 
         public bool AddReport(Report report)
@@ -118,5 +126,6 @@ namespace TrafficViolation.DAL.Repositories
                 return false;
             }
         }
+
     }
 }

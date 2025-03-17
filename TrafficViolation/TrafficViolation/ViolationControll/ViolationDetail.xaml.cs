@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using TrafficViolation.BLL.Services;
 using TrafficViolation.DAL.Models;
 
 namespace TrafficViolation.ViolationControll
@@ -21,6 +22,7 @@ namespace TrafficViolation.ViolationControll
     public partial class ViolationDetail : Window
     {
         private Violation _violation;
+        private ViolationService violationService = new ViolationService();
         public ViolationDetail(Violation violation)
         {
             InitializeComponent();
@@ -28,13 +30,62 @@ namespace TrafficViolation.ViolationControll
             DataContext = _violation;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
+       
 
+       
+
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+          this.Close();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
+        private void Edit_Click(object sender, RoutedEventArgs e)
+        {   // Lấy dữ liệu từ UI
+            int reportId = Int32.Parse(txtReportId.Text);
+            int violationId = Int32.Parse(txtViolationID.Text);
+            string plateNumber = txtPlateNumber.Text;
+          
+            string violatorName = txtValidator.Text;
+            decimal fineAmount;
+            DateTime fineDate;
+            bool isPaid = cbPaidStatus.IsChecked ?? false;
+
+            if ( string.IsNullOrEmpty(plateNumber))
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            if (!decimal.TryParse(txtFineAmount.Text, out fineAmount))
+            {
+                MessageBox.Show("Số tiền phạt không hợp lệ!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            if (!txtFineDate.SelectedDate.HasValue)
+            {
+                MessageBox.Show("Vui lòng chọn ngày phạt!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            fineDate = txtFineDate.SelectedDate.Value;
+
+            
+            var updatedViolation = new Violation
+            {
+                ReportId = reportId,
+                ViolationId = violationId,
+                PlateNumber = plateNumber,
+                
+                FineAmount = fineAmount,
+                FineDate = fineDate,
+                PaidStatus = isPaid
+            };
+
+         violationService.UpdateViolation(updatedViolation);
+            
+
+           
+           
 
         }
     }
