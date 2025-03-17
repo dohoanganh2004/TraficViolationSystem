@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
               "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAswCsAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T10:34:51.067Z",
               "EditorCaption": ""
@@ -62,8 +62,7 @@
               "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml",
               "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportDetail.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-15T10:34:38.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T10:34:38.299Z"
             },
             {
               "$type": "Document",
@@ -74,8 +73,7 @@
               "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDelete.xaml",
               "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportDelete.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-15T10:34:32.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T10:34:32.957Z"
             },
             {
               "$type": "Document",
@@ -86,8 +84,7 @@
               "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\CreateAccount.xaml",
               "RelativeToolTip": "TrafficViolation\\CreateAccount.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-15T10:34:29.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T10:34:29.175Z"
             }
           ]
         }
