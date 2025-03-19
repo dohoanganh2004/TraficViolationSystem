@@ -11,7 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using TrafficViolation.BLL.Services;
 using TrafficViolation.DAL.Models;
+using TrafficViolation.ViolationControll;
 
 namespace TrafficViolation.ReportControll
 {
@@ -20,7 +22,11 @@ namespace TrafficViolation.ReportControll
     /// </summary>
     public partial class ReportDetail : Window
     {
+        private User user = App.LoggedInUser;
         private Report _report;
+        private ReportService _reportService = new ReportService();
+        private ReportManage reportManage = new ReportManage();
+     
         public ReportDetail(Report report)
         {
             InitializeComponent();
@@ -33,12 +39,39 @@ namespace TrafficViolation.ReportControll
 
         private void btClose_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
+            ReportManage reportManage = new ReportManage();
+            reportManage.Show();
         }
 
         private void btConfirm_Click(object sender, RoutedEventArgs e)
         {
+            _report.Status = "Đã duyệt";
+            _report.ProcessedBy = user.UserId; // Lưu ID người xử lý
 
+            _reportService.UpdateReport(_report);
+             reportManage.GetAllReport();
+                CreateViolation createViolation = new CreateViolation(_report);
+        createViolation.Show();
+            this.Close();
+
+         
+
+           
+
+        }
+
+        private void btRefuse_Click(object sender, RoutedEventArgs e)
+        {
+            _report.Status = "Bị từ chối";
+            _report.ProcessedBy = user.UserId; 
+
+            _reportService.UpdateReport(_report);
+
+            MessageBox.Show("Phản ánh đã được duyệt!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+            reportManage.GetAllReport();
+            reportManage.Show();
+            this.Close();
         }
     }
 }

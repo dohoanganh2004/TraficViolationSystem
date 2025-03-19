@@ -19,16 +19,35 @@
     <Compile Update="Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MainWindow3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NotificationControll\NotificationManage.xaml.cs" />
+    <Compile Update="ReportControll\ReportAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ReportControll\ReportDetail.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ReportControll\ReportManage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ReportControll\ReportMine.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControll\ManageUser.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserControll\ViewProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViolationControll\CreateViolation.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViolationControll\ViolationDetail.xaml.cs">
@@ -54,16 +73,35 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="MainWindow3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NotificationControll\NotificationManage.xaml" />
+    <Page Update="ReportControll\ReportAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportDelete.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ReportControll\ReportDetail.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportControll\ReportManage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ReportControll\ReportMine.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UserControll\ManageUser.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControll\ViewProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViolationControll\CreateViolation.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViolationControll\ViolationDetail.xaml">

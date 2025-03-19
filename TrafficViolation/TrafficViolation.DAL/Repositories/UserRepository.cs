@@ -49,12 +49,21 @@ namespace TrafficViolation.DAL.Repositories
             context.SaveChanges();
         }
 
+       
+
         public User? GetUserByPhoneAndEmail(string phoneNumber, string email)
         {
             TrafficViolationContext context = new TrafficViolationContext();
             User user = new User();
             user = context.Users.Where(u => u.Phone == phoneNumber && u.Email== email).FirstOrDefault();
             return user;
+        }
+
+        public String GetUserImage(int userId)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            var user = context.Users.FirstOrDefault(u => u.UserId == userId);
+            return user?.Image;
         }
 
 

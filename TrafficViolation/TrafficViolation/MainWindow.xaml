@@ -57,7 +57,7 @@
             <Button Content="Quản Lý Người Dùng" HorizontalAlignment="Left" Height="68" Margin="37,86,0,0" VerticalAlignment="Top" Width="127" Click="UserManage_Click"/>
             <Button Content="Quản Lý Báo Cáo " HorizontalAlignment="Left" Height="65" Margin="200,89,0,0" VerticalAlignment="Top" Width="128" Name="btReport" Click="btReport_Click"/>
             <Button Content="Quản Lý Vi Phạm" HorizontalAlignment="Left" Height="65" Margin="360,89,0,0" VerticalAlignment="Top" Width="129" Name="btVolation" Click="btVolation_Click"/>
-            <Button Content="Quản Lý Khiếu Nại" HorizontalAlignment="Left" Margin="37,234,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.5,0.5" Height="60" Click="Button_Click_1">
+            <Button Content="Quản Lý Khiếu Nại" HorizontalAlignment="Left" Margin="37,234,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.5,0.5" Height="60" Click="btReportView_Click">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>

@@ -1,0 +1,56 @@
+﻿<Window x:Class="TrafficViolation.ReportControll.ReportView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrafficViolation.ReportControll"
+        mc:Ignorable="d"
+        Title="ReportView" Height="500" Width="1100">
+    <Grid>
+        <DataGrid x:Name="dgReports" AutoGenerateColumns="False" HeadersVisibility="Column"
+              ItemsSource="{Binding Reports}" Margin="10,10,10,50"
+              IsReadOnly="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Report ID" Binding="{Binding ReportId}" Width="80" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Reporter ID" Binding="{Binding ReporterId}" Width="80" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Violation Type" Binding="{Binding ViolationType, Mode=TwoWay}" Width="150"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description, Mode=TwoWay}" Width="200"/>
+                <DataGridTextColumn Header="Plate Number" Binding="{Binding PlateNumber, Mode=TwoWay}" Width="100"/>
+                <DataGridTextColumn Header="Location" Binding="{Binding Location, Mode=TwoWay}" Width="150"/>
+                <DataGridTextColumn Header="Report Date" Binding="{Binding ReportDate, Mode=TwoWay}" Width="120"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status, Mode=TwoWay}" Width="100"/>
+
+                <!-- Nút Edit -->
+                <DataGridTemplateColumn Header="Edit" Width="80">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Edit" Padding="5,2"
+                                Click="EditButton_Click"
+                                CommandParameter="{Binding}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Nút Delete -->
+                <DataGridTemplateColumn Header="Delete" Width="80">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Delete" Padding="5,2"
+                                Click="DeleteButton_Click"
+                                CommandParameter="{Binding}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Nút Back -->
+        <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Bottom"
+            Margin="10,0,0,10" Padding="10,5" Click="BackButton_Click"/>
+
+        <!-- Nút Create Report -->
+        <Button Content="Create Report" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+            Margin="0,0,10,10" Padding="10,5" Click="CreateReportButton_Click"/>
+    </Grid>
+
+</Window>

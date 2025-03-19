@@ -22,5 +22,34 @@ namespace TrafficViolation.BLL.Services
         {
             return reportRepository.GetReportByID(id);
         }
+
+
+
+        public void UpdateReport(Report report)
+        {
+            reportRepository.UpdateReport(report);
+        }
+        public bool ReportAdd(Report report)
+        {
+            return reportRepository.AddReport(report);
+        }
+
+        // Delete report by ID
+        public bool DeleteReport(int id)
+        {
+            return reportRepository.DeleteReport(id);
+        }
+
+        public List<Report> GetAllReportsByUserID(int id)
+        {
+            return reportRepository.GetAllReportsByReporterId(id);
+        }
+       
+        public bool AddReport(Report report) 
+        {
+            return reportRepository.AddReportByUser3(report);
+
+        }
+
     }
 }

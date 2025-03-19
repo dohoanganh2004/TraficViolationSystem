@@ -61,8 +61,22 @@ namespace TrafficViolation
                 return;
             }
             App.LoggedInUser = user;
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
+            //MainWindow mainWindow = new MainWindow();
+            Window targetWindow;
+            if (user.RoleId == 1 || user.RoleId == 2)
+            {
+                targetWindow = new MainWindow();
+            }
+            else if (user.RoleId == 3)
+            {
+                targetWindow = new MainWindow3();
+            }else
+            {
+                MessageBox.Show("Your account role is not recognized!", "Access Denied", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            targetWindow.Show();
             this.Hide();
         }
 
