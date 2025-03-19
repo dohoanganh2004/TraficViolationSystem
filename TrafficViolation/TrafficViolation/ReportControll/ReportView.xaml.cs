@@ -29,11 +29,13 @@ namespace TrafficViolation.ReportControll
         public ReportView()
         {
             InitializeComponent();
-            GetAllReportByUserId();
+
+            GetAllReportById();
         }
 
-        public void GetAllReportByUserId()
+        public void GetAllReportById()
         {
+
             var reports = reportService.GetAllReportsByUserID(user.UserId);
             dgReports.ItemsSource = reports;
         }
@@ -43,7 +45,7 @@ namespace TrafficViolation.ReportControll
             if (dgReports.SelectedItem is Report selectedReport)
             {
                 reportService.UpdateReport(selectedReport);
-                GetAllReportByUserId();
+                GetAllReportById();
             }
         }
         public void DeleteButton_Click(Object sender, RoutedEventArgs e)
@@ -51,7 +53,7 @@ namespace TrafficViolation.ReportControll
             if (dgReports.SelectedItem is Report selectedReport)
             {
                 reportService.DeleteReport(selectedReport.ReportId);
-                GetAllReportByUserId();
+                GetAllReportById();
             }
         }
 

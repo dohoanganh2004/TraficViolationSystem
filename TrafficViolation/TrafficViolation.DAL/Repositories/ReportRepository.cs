@@ -67,14 +67,17 @@ namespace TrafficViolation.DAL.Repositories
         {
             using (TrafficViolationContext context = new TrafficViolationContext())
             {
-                return context.Reports.Where(r => r.ReporterId == reporterId).Include(r => r.Reporter).ToList();
+                return context.Reports
+                              .Where(r => r.ReporterId == reporterId)
+                              .Include(r => r.Reporter) // Nếu cần thông tin của người báo cáo
+                              .ToList();
             }
         }
-        public List<Report> GetAllReportsByUserID(int userId)
+        public List<Report> GetAllReportsByUserID(int reportId)
         {
             using (TrafficViolationContext context = new TrafficViolationContext()) 
             {
-                return context.Reports.Where(r => r.ReporterId == userId).ToList();
+                return context.Reports.Where(r => r.ReporterId == reportId).ToList();
             }
         }
         public void UpdateReport(Report report)
@@ -87,10 +90,8 @@ namespace TrafficViolation.DAL.Repositories
                     existingReport.ViolationType = report.ViolationType;
                     existingReport.Description = report.Description;
                     existingReport.PlateNumber = report.PlateNumber;
-                    existingReport.ImageUrl = report.ImageUrl;
-                    existingReport.VideoUrl = report.VideoUrl;
                     existingReport.Location = report.Location;
-                    //existingReport.ReportDate = report.ReportDate;
+                    existingReport.ReportDate = report.ReportDate;
                     existingReport.Status = report.Status;
 
                     context.SaveChanges();
