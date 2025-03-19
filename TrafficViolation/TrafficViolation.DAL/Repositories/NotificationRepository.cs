@@ -38,5 +38,11 @@ namespace TrafficViolation.DAL.Repositories
             context.Notifications.Update(notification);
             context.SaveChanges();
         }
+
+        public List<Notification> GetAllNotificationByUserId(int userId)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            return context.Notifications.Include(n => n.User).Where(n=>n.UserId==userId).ToList();
+        }
     }
 }

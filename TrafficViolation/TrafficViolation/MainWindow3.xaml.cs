@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using TrafficViolation.BLL.Services;
+using TrafficViolation.DAL.Models;
 using TrafficViolation.NotificationControll;
 using TrafficViolation.ReportControll;
 using TrafficViolation.UserControll;
@@ -24,9 +25,21 @@ namespace TrafficViolation
     /// </summary>
     public partial class MainWindow3 : Window
     {
+        private User user = App.LoggedInUser;
         public MainWindow3()
         {
             InitializeComponent();
+            image();
+        }
+
+        void image()
+        {
+            UserService _userService = new UserService();
+            String imageLink = _userService.GetUserImage(user.UserId);
+            if (!string.IsNullOrEmpty(imageLink))
+            {
+                Image.Source = new BitmapImage(new Uri(imageLink, UriKind.Absolute));
+            }
         }
         private void Avatar_Click(object sender, MouseButtonEventArgs e)
         {
@@ -57,11 +70,6 @@ namespace TrafficViolation
 
         }
 
-        void ShowImage()
-        {
-            UserService userService = new UserService();
-            userService.GetUserImage();
-        }
 
         private void UserManage_Click(object sender, RoutedEventArgs e)
         {
@@ -80,10 +88,10 @@ namespace TrafficViolation
             this.Close();
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void Nofication_Click(object sender, RoutedEventArgs e)
         {
-            NotificationManage notificationManage = new NotificationManage();
-            notificationManage.Show();
+            NotificationsView notificationsView = new NotificationsView();
+            notificationsView.Show();
             this.Close();
         }
 

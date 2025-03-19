@@ -40,9 +40,9 @@ namespace TrafficViolation.BLL.Services
             return reportRepository.DeleteReport(id);
         }
 
-        public List<Report> GetAllReportsByUserID(int id)
+        public List<Report> GetAllReportsByUserID(int userId)
         {
-            return reportRepository.GetAllReportsByReporterId(id);
+            return reportRepository.GetAllReportsByReporterId(userId);
         }
        
         public bool AddReport(Report report) 
@@ -50,6 +50,7 @@ namespace TrafficViolation.BLL.Services
             return reportRepository.AddReportByUser3(report);
 
         }
+
 
     }
 }

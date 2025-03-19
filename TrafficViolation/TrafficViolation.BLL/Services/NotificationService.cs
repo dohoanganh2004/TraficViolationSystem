@@ -25,5 +25,9 @@ namespace TrafficViolation.BLL.Services
         public void  EditNotification(Notification notification) { 
             _notificationRepository.EditNotification(notification);
         }
+        public List<Notification> GetNoficationById(int userId)
+        {
+            return _notificationRepository.GetAllNotificationByUserId(userId);
+        }
     }
 }
