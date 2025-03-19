@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrafficViolation.ReportControll"
         mc:Ignorable="d"
-        Title="ReportView" Height="500" Width="1100">
-    <Grid>
+        Title="ReportView" Height="500" Width="1342">
+    <Grid Margin="0,74,140,0">
         <DataGrid x:Name="dgReports" AutoGenerateColumns="False" HeadersVisibility="Column"
-              ItemsSource="{Binding Reports}" Margin="10,10,10,50"
+              ItemsSource="{Binding Reports}" Margin="5,-68,-143,0"
               IsReadOnly="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Report ID" Binding="{Binding ReportId}" Width="80" IsReadOnly="True"/>
@@ -16,9 +16,11 @@
                 <DataGridTextColumn Header="Violation Type" Binding="{Binding ViolationType, Mode=TwoWay}" Width="150"/>
                 <DataGridTextColumn Header="Description" Binding="{Binding Description, Mode=TwoWay}" Width="200"/>
                 <DataGridTextColumn Header="Plate Number" Binding="{Binding PlateNumber, Mode=TwoWay}" Width="100"/>
+                <DataGridTextColumn Header="Image URL" Binding="{Binding ImageUrl, Mode=TwoWay}" Width="100"/>
+                <DataGridTextColumn Header="Video URL" Binding="{Binding VideoUrl, Mode=TwoWay}" Width="100"/>
                 <DataGridTextColumn Header="Location" Binding="{Binding Location, Mode=TwoWay}" Width="150"/>
-                <DataGridTextColumn Header="Report Date" Binding="{Binding ReportDate, Mode=TwoWay}" Width="120"/>
-                <DataGridTextColumn Header="Status" Binding="{Binding Status, Mode=TwoWay}" Width="100"/>
+                <DataGridTextColumn Header="Report Date" Binding="{Binding ReportDate}" Width="120" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status,Mode=TwoWay}" Width="100" IsReadOnly="True"/>
 
                 <!-- Nút Edit -->
                 <DataGridTemplateColumn Header="Edit" Width="80">
@@ -50,7 +52,7 @@
 
         <!-- Nút Create Report -->
         <Button Content="Create Report" HorizontalAlignment="Right" VerticalAlignment="Bottom"
-            Margin="0,0,10,10" Padding="10,5" Click="CreateReportButton_Click"/>
+            Margin="0,0,1045,10" Padding="10,5" Click="CreateReportButton_Click"/>
     </Grid>
 
 </Window>

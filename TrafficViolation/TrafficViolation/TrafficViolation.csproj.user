@@ -23,6 +23,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="NotificationControll\NotificationManage.xaml.cs" />
+    <Compile Update="NotificationControll\NotificationsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NotificationControll\NotificationsViewDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ReportControll\ReportAdd.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -77,6 +83,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="NotificationControll\NotificationManage.xaml" />
+    <Page Update="NotificationControll\NotificationsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NotificationControll\NotificationsViewDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ReportControll\ReportAdd.xaml">
       <SubType>Designer</SubType>
     </Page>

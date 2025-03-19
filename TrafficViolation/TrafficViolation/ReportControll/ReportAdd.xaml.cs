@@ -40,16 +40,22 @@ namespace TrafficViolation.ReportControll
             {
                 ReporterId = user.UserId,
                 PlateNumber = txtPlateNumber.Text,
-                ViolationType = "Chờ xử lí",
+                ViolationType = cbViolationType.Text,
                 Description = txtDescription.Text,
-                ImageUrl = txtImageUrl.Text,
-                VideoUrl = txtVideoUrl.Text,
+                ImageUrl = string.IsNullOrWhiteSpace(txtImageUrl.Text) ? null : txtImageUrl.Text,
+                VideoUrl = string.IsNullOrWhiteSpace(txtVideoUrl.Text) ? null : txtVideoUrl.Text,
+                //string.IsNullOrWhiteSpace(txtVideoUrl.Text) ? null : txtVideoUrl.Text
+                //Status = "Chờ xử lí",
                 Location = txtLocation.Text,
                 ReportDate = DateTime.Now
             };
+            if (string.IsNullOrWhiteSpace(txtImageUrl.Text) && string.IsNullOrWhiteSpace(txtVideoUrl.Text))
+            {
+                MessageBox.Show("Please enter at least an Image URL or a Video URL.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             reportRepository.AddReportByUser3(newReport);
-            //ReportAdd report = new ReportAdd();
-            //report.Show();
             ReportView reportView = new ReportView();
             reportView.Show();
             this.Close();
