@@ -1,21 +1,121 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\",
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377D6C4C-E169-445E-A9F9-632C4B9BF9CC}|TrafficViolation.BLL\\TrafficViolation.BLL.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377D6C4C-E169-445E-A9F9-632C4B9BF9CC}|TrafficViolation.BLL\\TrafficViolation.BLL.csproj|solutionrelative:trafficviolation.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\usercontroll\\manageuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\usercontroll\\manageuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\mainwindow3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\mainwindow3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\mainwindow3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\mainwindow3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\violationcontroll\\violationmanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\violationcontroll\\violationmanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{336C59B8-BF0E-4A31-A4DF-016861A1156F}|TrafficViolation.DAL\\TrafficViolation.DAL.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{336C59B8-BF0E-4A31-A4DF-016861A1156F}|TrafficViolation.DAL\\TrafficViolation.DAL.csproj|solutionrelative:trafficviolation.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportmine.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportmine.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportmanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportmanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportdelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportdelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{336C59B8-BF0E-4A31-A4DF-016861A1156F}|TrafficViolation.DAL\\TrafficViolation.DAL.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{336C59B8-BF0E-4A31-A4DF-016861A1156F}|TrafficViolation.DAL\\TrafficViolation.DAL.csproj|solutionrelative:trafficviolation.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{336C59B8-BF0E-4A31-A4DF-016861A1156F}|TrafficViolation.DAL\\TrafficViolation.DAL.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation.dal\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{336C59B8-BF0E-4A31-A4DF-016861A1156F}|TrafficViolation.DAL\\TrafficViolation.DAL.csproj|solutionrelative:trafficviolation.dal\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportmine.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportmine.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\violationcontroll\\violationdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\violationcontroll\\violationdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\violationcontroll\\createviolation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\violationcontroll\\createviolation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\violationcontroll\\createviolation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\violationcontroll\\createviolation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\notificationcontroll\\notificationmanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\notificationcontroll\\notificationmanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportdelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\reportcontroll\\reportdelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\reportcontroll\\reportdelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\pc\\desktop\\projectprn\\projectprn\\traficviolationsystem\\trafficviolation\\trafficviolation\\createaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|c:\\users\\admin\\documents\\github\\traficviolationsystem\\trafficviolation\\trafficviolation\\createaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{24083DF0-E2E5-41EA-BDC4-704EF9E46364}|TrafficViolation\\TrafficViolation.csproj|solutionrelative:trafficviolation\\createaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -26,12 +126,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -42,46 +138,343 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReportDetail.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
-              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
-              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowBUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:34:51.067Z",
+              "DocumentIndex": 1,
+              "Title": "ReportAdd.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportAdd.xaml",
+              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportAdd.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportAdd.xaml",
+              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportAdd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T01:33:27.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "ManageUser.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\UserControll\\ManageUser.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\UserControll\\ManageUser.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\UserControll\\ManageUser.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\UserControll\\ManageUser.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAawBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:46:24.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TrafficViolation.BLL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "TrafficViolation.BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:40:39.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow3.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow3.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\MainWindow3.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow3.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\MainWindow3.xaml.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAmwD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:47:17.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow3.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow3.xaml",
+              "RelativeDocumentMoniker": "TrafficViolation\\MainWindow3.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow3.xaml",
+              "RelativeToolTip": "TrafficViolation\\MainWindow3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T23:38:23.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViolationManage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\ViolationManage.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\ViolationControll\\ViolationManage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\ViolationManage.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\ViolationControll\\ViolationManage.xaml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:18:00.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\Login.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\Login.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:15:33.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportAdd.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportAdd.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportAdd.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportAdd.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportAdd.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:27:10.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReportView.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportView.xaml",
+              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportView.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportView.xaml",
+              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T13:47:16.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.DAL\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TrafficViolation.DAL\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.DAL\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TrafficViolation.DAL\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:38:03.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:46:44.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportView.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportView.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportView.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportView.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAEwEAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:47:14.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportMine.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportMine.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportMine.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportMine.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportMine.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:28:16.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReportManage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportManage.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportManage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportManage.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportManage.xaml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:16:50.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReportDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportDetail.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T10:34:51.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReportDelete.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDelete.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportDelete.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDelete.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportDelete.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:27:06.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\Login.xaml",
+              "RelativeDocumentMoniker": "TrafficViolation\\Login.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\Login.xaml",
+              "RelativeToolTip": "TrafficViolation\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T14:15:30.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TrafficViolation\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\MainWindow.xaml",
+              "RelativeToolTip": "TrafficViolation\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T03:04:34.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TrafficViolation.DAL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.DAL\\Models\\User.cs",
+              "RelativeToolTip": "TrafficViolation.DAL\\Models\\User.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:32:53.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.DAL\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "TrafficViolation.DAL\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation.DAL\\Models\\Role.cs",
+              "RelativeToolTip": "TrafficViolation.DAL\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:33:01.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReportMine.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportMine.xaml",
+              "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportMine.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportMine.xaml",
+              "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportMine.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T14:28:06.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ViolationDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\ViolationDetail.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\ViolationControll\\ViolationDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\ViolationDetail.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\ViolationControll\\ViolationDetail.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:17:48.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateViolation.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\CreateViolation.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\ViolationControll\\CreateViolation.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\CreateViolation.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\ViolationControll\\CreateViolation.xaml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwDIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:17:14.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateViolation.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\CreateViolation.xaml",
+              "RelativeDocumentMoniker": "TrafficViolation\\ViolationControll\\CreateViolation.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ViolationControll\\CreateViolation.xaml",
+              "RelativeToolTip": "TrafficViolation\\ViolationControll\\CreateViolation.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T14:17:11.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotificationManage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\NotificationControll\\NotificationManage.xaml.cs",
+              "RelativeDocumentMoniker": "TrafficViolation\\NotificationControll\\NotificationManage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\NotificationControll\\NotificationManage.xaml.cs",
+              "RelativeToolTip": "TrafficViolation\\NotificationControll\\NotificationManage.xaml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:15:58.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\appsettings.json",
+              "RelativeDocumentMoniker": "TrafficViolation\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\appsettings.json",
+              "RelativeToolTip": "TrafficViolation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T01:58:52.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ReportDetail.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml",
               "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportDetail.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDetail.xaml",
               "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportDetail.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-15T10:34:38.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 27,
               "Title": "ReportDelete.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDelete.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDelete.xaml",
               "RelativeDocumentMoniker": "TrafficViolation\\ReportControll\\ReportDelete.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDelete.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\ReportControll\\ReportDelete.xaml",
               "RelativeToolTip": "TrafficViolation\\ReportControll\\ReportDelete.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-15T10:34:32.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 28,
               "Title": "CreateAccount.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\CreateAccount.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\CreateAccount.xaml",
               "RelativeDocumentMoniker": "TrafficViolation\\CreateAccount.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\ProjectPRN\\ProjectPRN\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\CreateAccount.xaml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TraficViolationSystem\\TrafficViolation\\TrafficViolation\\CreateAccount.xaml",
               "RelativeToolTip": "TrafficViolation\\CreateAccount.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-15T10:34:29.175Z"

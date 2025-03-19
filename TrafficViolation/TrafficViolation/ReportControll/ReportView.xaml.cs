@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using Microsoft.VisualBasic.ApplicationServices;
 using TrafficViolation.BLL.Services;
 using TrafficViolation.DAL.Models;
+using User = TrafficViolation.DAL.Models.User;
 
 namespace TrafficViolation.ReportControll
 {
@@ -22,9 +23,9 @@ namespace TrafficViolation.ReportControll
     /// </summary>
     public partial class ReportView : Window
     {
-        public ReportService reportService = new ReportService();
-        int userId = App.LoggedInUser?.UserId ?? 0;
-
+        private ReportService reportService = new ReportService();
+        //int userId = App.LoggedInUser?.UserId ?? 0;
+        private User user = App.LoggedInUser;
         public ReportView()
         {
             InitializeComponent();
@@ -35,7 +36,7 @@ namespace TrafficViolation.ReportControll
         public void GetAllReportById()
         {
 
-            var reports = reportService.GetAllReportsByUserID(3);
+            var reports = reportService.GetAllReportsByUserID(user.UserId);
             dgReports.ItemsSource = reports;
         }
         public void EditButton_Click(object sender, RoutedEventArgs e)
@@ -65,8 +66,8 @@ namespace TrafficViolation.ReportControll
         }
         public void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
+            MainWindow3 mainWindow3 = new MainWindow3();
+            mainWindow3.Show();
             this.Close();
         }
 

@@ -21,6 +21,7 @@ namespace TrafficViolation.ReportControll
     /// </summary>
     public partial class ReportAdd : Window
     {
+        private User user = App.LoggedInUser;
         public ReportAdd()
         {
             InitializeComponent();
@@ -37,7 +38,7 @@ namespace TrafficViolation.ReportControll
             ReportRepository reportRepository = new ReportRepository();
             Report newReport = new Report()
             {
-                ReporterId = 3,
+                ReporterId = user.UserId,
                 PlateNumber = txtPlateNumber.Text,
                 ViolationType = "Chờ xử lí",
                 Description = txtDescription.Text,

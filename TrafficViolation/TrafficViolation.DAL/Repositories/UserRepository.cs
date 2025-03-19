@@ -59,7 +59,12 @@ namespace TrafficViolation.DAL.Repositories
             return user;
         }
 
-
+        public String GetUserImage(int userId)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            var user = context.Users.FirstOrDefault(u => u.UserId == userId);
+            return user?.Image;
+        }
 
 
     }

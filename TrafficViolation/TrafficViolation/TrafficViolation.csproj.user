@@ -19,9 +19,10 @@
     <Compile Update="Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-
-    <Compile Update="NotificationControll\NotificationManage.xaml.cs"/>
-
+    <Compile Update="MainWindow3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NotificationControll\NotificationManage.xaml.cs" />
     <Compile Update="ReportControll\ReportAdd.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -32,6 +33,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ReportControll\ReportManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportControll\ReportMine.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ReportControll\ReportView.xaml.cs">
@@ -53,7 +57,6 @@
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
-	
   <ItemGroup>
     <Page Update="Control\LeftNavbar.xaml">
       <SubType>Designer</SubType>
@@ -70,20 +73,23 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-
-    <Page Update="NotificationControll\NotificationManage.xaml"/>
-
+    <Page Update="MainWindow3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NotificationControll\NotificationManage.xaml" />
     <Page Update="ReportControll\ReportAdd.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportControll\ReportDelete.xaml">
-
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportControll\ReportDetail.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportControll\ReportManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportMine.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportControll\ReportView.xaml">

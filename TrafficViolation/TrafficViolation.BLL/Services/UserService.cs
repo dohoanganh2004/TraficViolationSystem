@@ -52,5 +52,11 @@ namespace TrafficViolation.BLL.Services
         {
             _repository.UpdateUser(user);
         }
+
+        public string GetUserImage(int userId)
+        {
+            return _repository.GetUserImage(userId);
+        }
+
     }
 }
