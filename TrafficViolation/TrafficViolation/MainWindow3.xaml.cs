@@ -57,17 +57,17 @@ namespace TrafficViolation
 
         }
 
-        void ShowImage()
-        {
-            UserService userService = new UserService();
-            userService.GetUserImage();
-        }
+       // void ShowImage()
+        //{
+           // UserService userService = new UserService();
+           // userService.GetUserImage();
+       // }
 
         private void UserManage_Click(object sender, RoutedEventArgs e)
         {
             ManageUser manageUser = new ManageUser();
             manageUser.Show();
-            this.Close();
+           
         }
 
 
@@ -77,14 +77,14 @@ namespace TrafficViolation
         {
             ReportView reportView = new ReportView();
             reportView.ShowDialog();
-            this.Close();
+          
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             NotificationManage notificationManage = new NotificationManage();
             notificationManage.Show();
-            this.Close();
+            
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -96,14 +96,14 @@ namespace TrafficViolation
         {
             ViolationManage violationManage = new ViolationManage();
             violationManage.ShowDialog();
-            this.Close();
+            
         }
 
         private void btReport_Click(object sender, RoutedEventArgs e)
         {
             ReportManage reportManage = new ReportManage();
             reportManage.ShowDialog();
-            this.Close();
+           
         }
         private void Logout(object sender, RoutedEventArgs e)
         {

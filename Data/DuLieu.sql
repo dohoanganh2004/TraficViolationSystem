@@ -35,8 +35,4 @@ INSERT INTO Payments (ViolationID, PaymentAmount, PaymentMethod, TransactionID, 
 INSERT INTO Complaints (UserID, ReportID, ViolationID, ComplaintText, Status) VALUES 
 (3, 1, 1, N'Tôi không đồng ý với biên bản này, vì tôi không lái xe vào thời điểm đó.', N'Chờ xử lý');
 --
-INSERT INTO DriverLicenses (UserID, LicenseNumber, IssueDate, ExpiryDate, LicenseClass, IssuingAuthority) VALUES 
-(3, N'123456789', '2020-01-01', '2030-01-01', N'B2', N'Sở GTVT TP. Hồ Chí Minh');
---
-INSERT INTO AuditLogs (UserID, Action, Details) VALUES 
-(1, N'Tạo báo cáo vi phạm', N'Người dùng Nguyễn Văn A đã tạo một báo cáo vi phạm cho biển số 51A-12345.');
+

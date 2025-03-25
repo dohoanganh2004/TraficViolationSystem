@@ -44,7 +44,7 @@ namespace TrafficViolation.ViolationControll
             int reportId = Int32.Parse(txtReportId.Text);
             int violationId = Int32.Parse(txtViolationID.Text);
             string plateNumber = txtPlateNumber.Text;
-          
+            
             string violatorName = txtValidator.Text;
             decimal fineAmount;
             DateTime fineDate;
