@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrafficViolation.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2f8e1bab75f970c7ea14da26d4a68a90fcb5b9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea3d8f580b32b245cfd632a0f756ca345677e71b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrafficViolation.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrafficViolation.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

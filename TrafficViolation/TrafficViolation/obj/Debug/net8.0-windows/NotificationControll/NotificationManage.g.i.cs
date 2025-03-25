@@ -141,8 +141,7 @@ namespace TrafficViolation.NotificationControll {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TrafficViolation;V1.0.0.0;component/notificationcontroll/notificationmanage.xaml" +
-                    "", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TrafficViolation;component/notificationcontroll/notificationmanage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\NotificationControll\NotificationManage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
