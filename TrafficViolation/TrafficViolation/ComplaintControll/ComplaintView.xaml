@@ -1,0 +1,26 @@
+﻿<Window x:Class="TrafficViolation.ComplaintControll.ComplaintView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrafficViolation.ComplaintControll"
+        mc:Ignorable="d"
+        Title="ComplaintView" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DataGrid x:Name="dgComplaint" AutoGenerateColumns="False" HeadersVisibility="Column"
+ItemsSource="{Binding Complaint}" Margin="44,40,44,71"
+IsReadOnly="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="NotificationId" Binding="{Binding ComplaintId}" Width="50" IsReadOnly="True"/>
+                <DataGridTextColumn Header="UserId" Binding="{Binding UserId,Mode=TwoWay}" Width="50" IsReadOnly="True"/>
+                <DataGridTextColumn Header="ReportId" Binding="{Binding ReportId,Mode=TwoWay}" Width="50" IsReadOnly="True"/>
+                <DataGridTextColumn Header="ViolationId" Binding="{Binding ViolationId,Mode=TwoWay}" Width="50" IsReadOnly="True"/>
+                <DataGridTextColumn Header="ComplaintText" Binding="{Binding ComplaintText,Mode=TwoWay}" Width="200" IsReadOnly="True"/>
+                <DataGridTextColumn Header="ComplaintDate" Binding="{Binding ComplaintDate,Mode=TwoWay}" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status,Mode=TwoWay}" Width="50" IsReadOnly="True"/>
+                <DataGridTextColumn Header="ProcessedBy" Binding="{Binding ProcessedBy,Mode=TwoWay}" Width="100" IsReadOnly="True"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

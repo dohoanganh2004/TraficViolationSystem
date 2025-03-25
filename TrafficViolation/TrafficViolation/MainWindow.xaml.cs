@@ -59,8 +59,6 @@ namespace TrafficViolation
        
         private void btReportView_Click(object sender, RoutedEventArgs e)
         {
-            ReportView reportView = new ReportView();
-            reportView.ShowDialog();
             this.Close();
         }
 

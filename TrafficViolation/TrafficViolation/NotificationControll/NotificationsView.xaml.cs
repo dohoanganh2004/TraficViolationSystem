@@ -50,9 +50,14 @@ namespace TrafficViolation.NotificationControll
 
         }
         
-private void ViewButton_Click(object sender, RoutedEventArgs e)
+        private void ViewDetail_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+
+            if (sender is Button button && button.CommandParameter is int notificationId)
+            {
+                NotificationsViewDetail notificationsViewDetail = new NotificationsViewDetail(notificationId);
+                notificationsViewDetail.Show();
+            }
         }
 
     }

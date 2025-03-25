@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using TrafficViolation.BLL.Services;
+using TrafficViolation.DAL.Models;
 
 namespace TrafficViolation.NotificationControll
 {
@@ -19,9 +21,22 @@ namespace TrafficViolation.NotificationControll
     /// </summary>
     public partial class NotificationsViewDetail : Window
     {
-        public NotificationsViewDetail()
+        private int _notificationId;
+        private NotificationService notificationService = new NotificationService();
+        private User user = App.LoggedInUser;
+        public NotificationsViewDetail(int notificationId)
         {
             InitializeComponent();
+            _notificationId= notificationId;
+            LoadUserNotification();
         }
+
+        void LoadUserNotification()
+        {
+            var notification = notificationService.GetNotificationByUserId(user.UserId, _notificationId);
+            dgNotification.ItemsSource = new List<Notification> { notification };
+        }
+
+
     }
 }

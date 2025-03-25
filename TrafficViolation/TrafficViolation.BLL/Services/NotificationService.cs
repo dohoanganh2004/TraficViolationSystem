@@ -29,5 +29,9 @@ namespace TrafficViolation.BLL.Services
         {
             return _notificationRepository.GetAllNotificationByUserId(userId);
         }
+        public Notification GetNotificationByUserId(int userId,int notificationId)
+        {
+            return _notificationRepository.GetNotificationByUserId(userId,notificationId);
+        }
     }
 }

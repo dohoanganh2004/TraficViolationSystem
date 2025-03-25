@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using TrafficViolation.BLL.Services;
+using TrafficViolation.ComplaintControll;
 using TrafficViolation.DAL.Models;
 using TrafficViolation.NotificationControll;
 using TrafficViolation.ReportControll;
@@ -92,7 +93,7 @@ namespace TrafficViolation
         {
             NotificationsView notificationsView = new NotificationsView();
             notificationsView.Show();
-            this.Close();
+           
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -102,16 +103,15 @@ namespace TrafficViolation
 
         private void btVolation_Click(object sender, RoutedEventArgs e)
         {
-            ViolationManage violationManage = new ViolationManage();
-            violationManage.ShowDialog();
+            
             this.Close();
         }
 
-        private void btReport_Click(object sender, RoutedEventArgs e)
+        private void Complaint_Click(object sender, RoutedEventArgs e)
         {
-            ReportManage reportManage = new ReportManage();
-            reportManage.ShowDialog();
-            this.Close();
+            ComplaintView complaintView = new ComplaintView();
+            complaintView.Show();
+            
         }
         private void Logout(object sender, RoutedEventArgs e)
         {

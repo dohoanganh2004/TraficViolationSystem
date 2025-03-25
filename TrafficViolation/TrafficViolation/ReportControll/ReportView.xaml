@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrafficViolation.ReportControll"
         mc:Ignorable="d"
-        Title="ReportView" Height="500" Width="1342">
+        Title="ReportView" Height="500" Width="1342"
+        WindowStartupLocation="CenterScreen">
     <Grid Margin="0,74,140,0">
         <DataGrid x:Name="dgReports" AutoGenerateColumns="False" HeadersVisibility="Column"
               ItemsSource="{Binding Reports}" Margin="5,-68,-143,0"

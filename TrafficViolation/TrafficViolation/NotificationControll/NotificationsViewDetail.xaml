@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrafficViolation.NotificationControll"
         mc:Ignorable="d"
-        Title="NotificationsViewDetail" Height="450" Width="800">
+        Title="NotificationsViewDetail" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <DataGrid x:Name="dgNotification" AutoGenerateColumns="False" HeadersVisibility="Column"
+ItemsSource="{Binding Notification}" Margin="38,29,106,82"
+IsReadOnly="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="NotificationId" Binding="{Binding NotificationId}" Width="120" IsReadOnly="True"/>
+                <DataGridTextColumn Header="UserId" Binding="{Binding UserId}" Width="120" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Date" Binding="{Binding SentDate,Mode=TwoWay}" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Message" Binding="{Binding Message,Mode=TwoWay}" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Header="SentDate" Binding="{Binding SentDate,Mode=TwoWay}" Width="100" IsReadOnly="True"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>
