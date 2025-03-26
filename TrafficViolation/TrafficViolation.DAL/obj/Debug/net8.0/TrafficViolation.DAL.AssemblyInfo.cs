@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrafficViolation.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d9b6e453c4b1a11f6c560b2957f3067b0da7cb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69734fd0c04cec678aae9c83beee8b4e34ae82d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrafficViolation.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrafficViolation.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
