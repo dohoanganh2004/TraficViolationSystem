@@ -75,6 +75,7 @@ namespace TrafficViolation
                 Image = image
             };
             userService.CreateUser(user);
+            MessageBox.Show("Đăng Ký Thành Công", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
 
         private void BrowseImage_Click(object sender, RoutedEventArgs e)

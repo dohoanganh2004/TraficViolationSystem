@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrafficViolation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edb67f35bd774ac5a4e1378027d148f15425effe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b556148f5e4649968ebdb850aeb156e3ddd996f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrafficViolation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrafficViolation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

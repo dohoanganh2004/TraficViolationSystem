@@ -114,29 +114,7 @@ CREATE TABLE Complaints (
 );
 GO
 
--- 9. Tạo bảng DriverLicenses
-CREATE TABLE DriverLicenses (
-    LicenseID INT IDENTITY(1,1) PRIMARY KEY,
-    UserID INT NOT NULL,
-    LicenseNumber NVARCHAR(20) NOT NULL UNIQUE,
-    IssueDate DATE NOT NULL,
-    ExpiryDate DATE NOT NULL,
-    LicenseClass NVARCHAR(10),
-    IssuingAuthority NVARCHAR(100),
-    FOREIGN KEY (UserID) REFERENCES Users(UserID)
-);
-GO
 
--- 10. Tạo bảng AuditLogs
-CREATE TABLE AuditLogs (
-    LogID INT IDENTITY(1,1) PRIMARY KEY,
-    UserID INT NULL,
-    Action NVARCHAR(255) NOT NULL,
-    ActionDate DATETIME DEFAULT GETDATE(),
-    Details NVARCHAR(MAX),
-    FOREIGN KEY (UserID) REFERENCES Users(UserID)
-);
-GO
 
 
 

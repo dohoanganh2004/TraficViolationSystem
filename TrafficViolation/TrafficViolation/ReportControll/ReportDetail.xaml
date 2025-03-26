@@ -90,7 +90,7 @@
             <Button Content="Từ chối" Width="120" Height="40" 
             HorizontalAlignment="Center"
             Name="btRefuse" Click="btRefuse_Click" 
-            Grid.Column="1" Background="Red" Foreground="White"/>
+            Grid.Column="1" Background="Red" Foreground="White" VerticalAlignment="Top"/>
 
             <Button Content="Đóng" Width="120" 
             HorizontalAlignment="Center"

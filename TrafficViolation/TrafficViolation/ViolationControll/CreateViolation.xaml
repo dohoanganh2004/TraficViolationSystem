@@ -66,11 +66,11 @@
             <!-- Bên phải: Hình ảnh và Video -->
             <Border Grid.Column="1" Padding="10" Background="White" Grid.ColumnSpan="2" Margin="83,0,0,0">
                 <StackPanel Margin="10">
-                    <TextBlock Text="Hình ảnh:" FontWeight="Bold"/>
-                    <Image Name="imgViolation" Height="150" Stretch="Uniform"/>
+                    <Label Content="Hình ảnh:" FontWeight="Bold"/>
+                    <Image Name="imgViolation" Height="150" Stretch="Uniform" Source="{Binding ImageUrl }"/>
 
-                    <TextBlock Text="Video:" FontWeight="Bold"/>
-                    <MediaElement Name="videoViolation" Height="150" Stretch="Uniform" LoadedBehavior="Manual"/>
+                    <Label Content="Video:" FontWeight="Bold"/>
+                    <MediaElement Name="videoViolation" Height="150" Stretch="Uniform" LoadedBehavior="Manual" Source="{Binding VideoUrl}"/>
                 </StackPanel>
             </Border>
         </Grid>

@@ -21,9 +21,10 @@ namespace TrafficViolation.BLL.Services
             return violationReponsitory.GetAllViolations();
         }
 
-        public void AddViolation(Violation violation)
+        public int AddViolation(Violation violation)
         {
              violationReponsitory.AddViolation(violation);
+            return violation.ViolationId;
         }
 
         public void UpdateViolation(Violation violation)
