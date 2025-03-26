@@ -181,7 +181,7 @@ namespace TrafficViolation.UserControll {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TrafficViolation;component/usercontroll/manageuser.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TrafficViolation;V1.0.0.0;component/usercontroll/manageuser.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UserControll\ManageUser.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

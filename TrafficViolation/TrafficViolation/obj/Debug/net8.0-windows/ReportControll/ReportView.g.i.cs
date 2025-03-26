@@ -61,7 +61,7 @@ namespace TrafficViolation.ReportControll {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TrafficViolation;component/reportcontroll/reportview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TrafficViolation;V1.0.0.0;component/reportcontroll/reportview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\ReportControll\ReportView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -70,7 +70,7 @@ namespace TrafficViolation {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TrafficViolation;component/mainwindow3.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TrafficViolation;V1.0.0.0;component/mainwindow3.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainWindow3.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
