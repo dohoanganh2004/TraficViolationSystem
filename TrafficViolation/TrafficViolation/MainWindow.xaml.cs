@@ -51,7 +51,7 @@ namespace TrafficViolation
         {
             ManageUser manageUser = new ManageUser();
             manageUser.Show();
-            this.Close();
+            
         }
 
     
@@ -66,7 +66,7 @@ namespace TrafficViolation
         {
            NotificationManage notificationManage = new NotificationManage();
             notificationManage.Show();
-            this.Close();
+            
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -78,14 +78,14 @@ namespace TrafficViolation
         {
             ViolationManage violationManage = new ViolationManage();
             violationManage.ShowDialog();
-            this.Close();
+            
         }
 
         private void btReport_Click(object sender, RoutedEventArgs e)
         {
             ReportManage reportManage = new ReportManage(); 
             reportManage.ShowDialog();
-            this.Close();
+           
         }
     }
 }

@@ -37,36 +37,28 @@ namespace TrafficViolation.ReportControll
             var reports = reportService.GetAllReportsByUserID(user.UserId);
             dgReports.ItemsSource = reports;
         }
-        public void EditButton_Click(object sender, RoutedEventArgs e)
-        {
-            dgReports.CommitEdit();
-            if (dgReports.SelectedItem is Report selectedReport)
-            {
-                reportService.UpdateReport(selectedReport);
-                GetAllReportByUserId();
-            }
-        }
-        public void DeleteButton_Click(Object sender, RoutedEventArgs e)
-        {
-            if (dgReports.SelectedItem is Report selectedReport)
-            {
-                reportService.DeleteReport(selectedReport.ReportId);
-                GetAllReportByUserId();
-            }
-        }
+       
 
         
         public void CreateReportButton_Click(object sender, RoutedEventArgs e)
         {
             ReportAdd reportAdd = new ReportAdd();
             reportAdd.Show();
-            this.Close();
+            
         }
         public void BackButton_Click(object sender, RoutedEventArgs e)
         {
             MainWindow3 mainWindow3 = new MainWindow3();
             mainWindow3.Show();
             this.Close();
+        }
+        public void dgReports_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (dgReports.SelectedItem is Report selectedReport)
+            {
+                ReportViewDetail reportViewDetail = new ReportViewDetail(selectedReport.ReportId);
+                reportViewDetail.Show();
+            }
         }
 
     }

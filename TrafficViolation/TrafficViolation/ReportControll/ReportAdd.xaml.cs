@@ -34,6 +34,11 @@ namespace TrafficViolation.ReportControll
                 MessageBox.Show("You must be logged in to submit a report.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
+            if (user == null || user.UserId == 0)
+            {
+                MessageBox.Show("User ID is invalid!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
 
             ReportRepository reportRepository = new ReportRepository();
             Report newReport = new Report()
@@ -45,9 +50,10 @@ namespace TrafficViolation.ReportControll
                 ImageUrl = string.IsNullOrWhiteSpace(txtImageUrl.Text) ? null : txtImageUrl.Text,
                 VideoUrl = string.IsNullOrWhiteSpace(txtVideoUrl.Text) ? null : txtVideoUrl.Text,
                 //string.IsNullOrWhiteSpace(txtVideoUrl.Text) ? null : txtVideoUrl.Text
-                //Status = "Chờ xử lí",
                 Location = txtLocation.Text,
-                ReportDate = DateTime.Now
+                ReportDate = DateTime.Now,
+                //Status = "Chờ xử lý"
+
             };
             if (string.IsNullOrWhiteSpace(txtImageUrl.Text) && string.IsNullOrWhiteSpace(txtVideoUrl.Text))
             {
@@ -55,7 +61,13 @@ namespace TrafficViolation.ReportControll
                 return;
             }
 
-            reportRepository.AddReportByUser3(newReport);
+            bool result = reportRepository.AddReportByUser3(newReport);
+            if (!result)
+            {
+                MessageBox.Show("Failed to save report!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
             ReportView reportView = new ReportView();
             reportView.Show();
             this.Close();

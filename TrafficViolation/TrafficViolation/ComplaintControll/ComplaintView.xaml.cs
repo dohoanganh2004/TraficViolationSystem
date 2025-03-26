@@ -35,5 +35,21 @@ namespace TrafficViolation.ComplaintControll
             //var complaints = ComplaintsService.GetComplaints(user.UserId);
             dgComplaint.ItemsSource = complaint;
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+        private void CreateComplaintButton_Click(object sender, RoutedEventArgs e)
+        {
+            ComplaintCreate complaintCreate = new ComplaintCreate();
+            complaintCreate.Show();
+        }
+        
+        private void ViewDetail_Click(object sender, RoutedEventArgs e)
+        {
+            ComplaintDetail complaintDetail = new ComplaintDetail();
+            complaintDetail.Show();
+        }
     }
 }

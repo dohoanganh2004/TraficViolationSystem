@@ -84,7 +84,7 @@ namespace TrafficViolation
         {
             ReportView reportView = new ReportView();
             reportView.ShowDialog();
-            this.Close();
+       
         }
 
         private void Nofication_Click(object sender, RoutedEventArgs e)

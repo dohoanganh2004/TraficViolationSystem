@@ -7,6 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ComplaintControll\ComplaintCreate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ComplaintControll\ComplaintDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ComplaintControll\ComplaintView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -50,6 +56,9 @@
     <Compile Update="ReportControll\ReportView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ReportControll\ReportViewDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControll\ManageUser.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -67,6 +76,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ComplaintControll\ComplaintCreate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ComplaintControll\ComplaintDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ComplaintControll\ComplaintView.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -111,6 +126,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportControll\ReportView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportControll\ReportViewDetail.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControll\ManageUser.xaml">

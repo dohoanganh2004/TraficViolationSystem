@@ -111,7 +111,7 @@ namespace TrafficViolation.ReportControll
                 ReportDetail reportDetail = new ReportDetail(selectedReport);
 
                 reportDetail.Show();
-                this.Close();
+              
 
 
             }

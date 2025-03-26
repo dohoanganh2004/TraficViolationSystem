@@ -125,6 +125,14 @@ namespace TrafficViolation.DAL.Repositories
                 return false;
             }
         }
+        public Report GetReportByReportId(int reportId)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            return context.Reports
+           .Where(r => r.ReportId == reportId)
+           .FirstOrDefault();
+
+        }
 
     }
 }

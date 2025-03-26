@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\App.xaml
-211530902022
+24-253318307
 
-26899951562
-246-603598361
-ComplaintControll\ComplaintView.xaml;Control\LeftNavbar.xaml;CreateAccount.xaml;ForgotPassword.xaml;Login.xaml;MainWindow.xaml;MainWindow3.xaml;NotificationControll\NotificationManage.xaml;NotificationControll\NotificationsView.xaml;NotificationControll\NotificationsViewDetail.xaml;ReportControll\ReportAdd.xaml;ReportControll\ReportDelete.xaml;ReportControll\ReportDetail.xaml;ReportControll\ReportManage.xaml;ReportControll\ReportMine.xaml;ReportControll\ReportView.xaml;UserControll\ManageUser.xaml;UserControll\ViewProfile.xaml;ViolationControll\CreateViolation.xaml;ViolationControll\ViolationDetail.xaml;ViolationControll\ViolationManage.xaml;
+29928548367
+2461580377104
+ComplaintControll\ComplaintCreate.xaml;ComplaintControll\ComplaintDetail.xaml;ComplaintControll\ComplaintView.xaml;Control\LeftNavbar.xaml;CreateAccount.xaml;ForgotPassword.xaml;Login.xaml;MainWindow.xaml;MainWindow3.xaml;NotificationControll\NotificationManage.xaml;NotificationControll\NotificationsView.xaml;NotificationControll\NotificationsViewDetail.xaml;ReportControll\ReportAdd.xaml;ReportControll\ReportDelete.xaml;ReportControll\ReportDetail.xaml;ReportControll\ReportManage.xaml;ReportControll\ReportMine.xaml;ReportControll\ReportView.xaml;ReportControll\ReportViewDetail.xaml;UserControll\ManageUser.xaml;UserControll\ViewProfile.xaml;ViolationControll\CreateViolation.xaml;ViolationControll\ViolationDetail.xaml;ViolationControll\ViolationManage.xaml;
 
 False
 

@@ -51,6 +51,10 @@ namespace TrafficViolation.BLL.Services
 
         }
 
+        public Report GetReportByReportId(int reportId)
+        {
+            return reportRepository.GetReportByReportId(reportId);
+        }
 
     }
 }

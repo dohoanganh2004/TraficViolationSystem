@@ -28,11 +28,7 @@
         <TextBox Grid.Row="0" Grid.Column="1" Name="txtPlateNumber" Width="200"/>
 
         <Label Grid.Row="1" Grid.Column="0" Content="Loại vi phạm:"/>
-        <ComboBox Grid.Row="1" Grid.Column="1" Name="cbViolationType" Width="200">
-            <ComboBoxItem Content="Vượt đèn đỏ"/>
-            <ComboBoxItem Content="Chạy quá tốc độ"/>
-            <ComboBoxItem Content="Đi sai làn đường"/>
-        </ComboBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="cbViolationType" Width="200"/>
 
         <Label Grid.Row="2" Grid.Column="0" Content="Mô tả:"/>
         <TextBox Grid.Row="2" Grid.Column="1" Name="txtDescription" Width="200" Height="50" AcceptsReturn="True"/>

@@ -5,22 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrafficViolation.ComplaintControll"
         mc:Ignorable="d"
-        Title="ComplaintView" Height="450" Width="800" WindowStartupLocation="CenterScreen">
-    <Grid>
+        Title="ComplaintView" Height="532" Width="943" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,4">
         <DataGrid x:Name="dgComplaint" AutoGenerateColumns="False" HeadersVisibility="Column"
-ItemsSource="{Binding Complaint}" Margin="44,40,44,71"
-IsReadOnly="False">
+        ItemsSource="{Binding Complaint}"  CanUserAddRows="False" Margin="44,40,45,42"
+        IsReadOnly="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="NotificationId" Binding="{Binding ComplaintId}" Width="50" IsReadOnly="True"/>
-                <DataGridTextColumn Header="UserId" Binding="{Binding UserId,Mode=TwoWay}" Width="50" IsReadOnly="True"/>
-                <DataGridTextColumn Header="ReportId" Binding="{Binding ReportId,Mode=TwoWay}" Width="50" IsReadOnly="True"/>
-                <DataGridTextColumn Header="ViolationId" Binding="{Binding ViolationId,Mode=TwoWay}" Width="50" IsReadOnly="True"/>
-                <DataGridTextColumn Header="ComplaintText" Binding="{Binding ComplaintText,Mode=TwoWay}" Width="200" IsReadOnly="True"/>
-                <DataGridTextColumn Header="ComplaintDate" Binding="{Binding ComplaintDate,Mode=TwoWay}" Width="100" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Status" Binding="{Binding Status,Mode=TwoWay}" Width="50" IsReadOnly="True"/>
-                <DataGridTextColumn Header="ProcessedBy" Binding="{Binding ProcessedBy,Mode=TwoWay}" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Header="ComplaintId" Binding="{Binding ComplaintId}" Width="100" IsReadOnly="True"/>
+                <!--     <DataGridTextColumn Header="UserId" Binding="{Binding UserId,Mode=TwoWay}" Width="50" IsReadOnly="True"/> -->
+                <!--   <DataGridTextColumn Header="ReportId" Binding="{Binding ReportId,Mode=TwoWay}" Width="50" IsReadOnly="True"/>-->
+                <!--     <DataGridTextColumn Header="ViolationId" Binding="{Binding ViolationId,Mode=TwoWay}" Width="50" IsReadOnly="True"/>-->
+                <DataGridTextColumn Header="ComplaintText" Binding="{Binding ComplaintText,Mode=TwoWay}" Width="350" IsReadOnly="True"/>
+                <DataGridTextColumn Header="ComplaintDate" Binding="{Binding ComplaintDate,Mode=TwoWay}" Width="200" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status,Mode=TwoWay}" Width="100" IsReadOnly="True"/>
+          <!--      <DataGridTextColumn Header="ProcessedBy" Binding="{Binding ProcessedBy,Mode=TwoWay}" Width="100" IsReadOnly="True"/> -->
+                <DataGridTemplateColumn Header="VIEW DETAIL" Width="200">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="View Detail" Padding="5,2"
+                        Click="ViewDetail_Click"
+                        CommandParameter="{Binding ComplaintId}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
 
             </DataGrid.Columns>
         </DataGrid>
+
+        <!-- Nút Back -->
+        <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Bottom"
+    Margin="10,0,0,1" Padding="10,5" Click="BackButton_Click" RenderTransformOrigin="2.862,-4.051"/>
+
+        <!-- Nút Create Complaint -->
+        <Button Content="Create Complaint" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+         Margin="0,0,684,0" Padding="10,5" Click="CreateComplaintButton_Click" Width="174"/>
     </Grid>
 </Window>
