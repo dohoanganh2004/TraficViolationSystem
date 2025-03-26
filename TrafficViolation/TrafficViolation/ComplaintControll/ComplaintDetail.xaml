@@ -6,6 +6,12 @@
         xmlns:local="clr-namespace:TrafficViolation.ComplaintControll"
         mc:Ignorable="d" WindowStartupLocation="CenterScreen"
         Title="ComplaintDetail" Height="450" Width="800">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#003366" Offset="0.0"/>
+            <GradientStop Color="#00AEEF" Offset="1.0"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
