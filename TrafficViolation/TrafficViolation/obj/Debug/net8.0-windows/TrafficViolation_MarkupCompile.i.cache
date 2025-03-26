@@ -16,5 +16,5 @@ C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficVi
 246-1514380720
 ComplaintControll\ComplaintCreate.xaml;ComplaintControll\ComplaintDetail.xaml;ComplaintControll\ComplaintView.xaml;Control\LeftNavbar.xaml;CreateAccount.xaml;ForgotPassword.xaml;Login.xaml;MainWindow.xaml;MainWindow3.xaml;NotificationControll\NotificationManage.xaml;NotificationControll\NotificationsView.xaml;NotificationControll\NotificationsViewDetail.xaml;ReportControll\ReportAdd.xaml;ReportControll\ReportDetail.xaml;ReportControll\ReportManage.xaml;ReportControll\ReportView.xaml;ReportControll\ReportViewDetail.xaml;UserControll\ManageUser.xaml;UserControll\ViewProfile.xaml;ViolationControll\CreateViolation.xaml;ViolationControll\ViolationDetail.xaml;ViolationControll\ViolationManage.xaml;ViolationControll\ViolationPay.xaml;ViolationControll\ViolationView.xaml;
 
-True
+False
 

@@ -61,7 +61,7 @@ namespace TrafficViolation.ViolationControll {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TrafficViolation;V1.0.0.0;component/violationcontroll/violationview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TrafficViolation;component/violationcontroll/violationview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\ViolationControll\ViolationView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
