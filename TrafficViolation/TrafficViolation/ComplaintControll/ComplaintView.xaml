@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrafficViolation.ComplaintControll"
         mc:Ignorable="d"
-        Title="ComplaintView" Height="532" Width="943" WindowStartupLocation="CenterScreen">
+        Title="ComplaintView" Height="532" Width="1000" WindowStartupLocation="CenterScreen">
     <Window.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="#003366" Offset="0.0"/>

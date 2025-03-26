@@ -22,7 +22,7 @@ namespace TrafficViolation.BLL.Services
         }
         public bool CreateComplaint(Complaint complaint)
         {
-            return complaintRepository.CreateComplaint(complaint);
+            return complaintRepository.CreateComplaintt(complaint);
         }
     }
 

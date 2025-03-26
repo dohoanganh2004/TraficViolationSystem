@@ -27,7 +27,7 @@ namespace TrafficViolation.DAL.Repositories
             TrafficViolationContext context = new TrafficViolationContext();
             return context.Complaints.Where(a => a.ComplaintId == complaintId).FirstOrDefault();
         }
-        public bool CreateComplaint(Complaint complaint)
+        public bool CreateComplaintt(Complaint complaint)
         {
             TrafficViolationContext context = new TrafficViolationContext();
             try
@@ -43,7 +43,7 @@ namespace TrafficViolation.DAL.Repositories
         }
 
 
-    { 
+    
         public List<Complaint> GetAllComplaint()
         {
             TrafficViolationContext context = new TrafficViolationContext();

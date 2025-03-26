@@ -38,9 +38,9 @@ namespace TrafficViolation.ComplaintControll
         private void gridComplaint_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (gridComplaint.SelectedItem is Complaint complaint)
-            { 
-                ComplaintDetail complaintDetail = new ComplaintDetail(complaint);
-                complaintDetail.Show();
+            {
+                ComplaintDetailAdmin complaintDetailAdmin = new ComplaintDetailAdmin(complaint);
+                complaintDetailAdmin.Show();
 
             }
         }

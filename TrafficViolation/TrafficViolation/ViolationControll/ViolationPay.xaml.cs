@@ -44,18 +44,7 @@ namespace TrafficViolation.ViolationControll
                 this.Close();
             }
         }
-        private void UpdateButton_Click(object sender, RoutedEventArgs e)
-        {
-            if (sender is Button button && button.CommandParameter is Violation selectedViolation)
-            {
-                selectedViolation.PaidStatus = true; // Update PaidStatus
-                violationService.UpdateViolationPay(selectedViolation); // Update in database
-
-                MessageBox.Show($"Cập nhật Violation ID {selectedViolation.ViolationId} thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
-
-                load(); // Refresh the data grid
-            }
-        }
+        
 
     }
 
