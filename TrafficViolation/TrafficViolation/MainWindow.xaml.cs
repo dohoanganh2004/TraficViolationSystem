@@ -71,7 +71,8 @@ namespace TrafficViolation
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-
+            ViolationPay violationPay = new ViolationPay();
+            violationPay.Show();
         }
 
         private void btVolation_Click(object sender, RoutedEventArgs e)

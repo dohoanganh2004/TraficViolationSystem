@@ -30,7 +30,15 @@ namespace TrafficViolation.BLL.Services
         {
             violationReponsitory.UpdateViolation(violation);
         }
+        public List<Violation> GetAllViolationById(int violationId)
+        {
 
+            return violationReponsitory.GetViolationsById(violationId);
+        }
+        public void UpdateViolationPay(Violation violation)
+        {
+            violationReponsitory.UpdateViolationPay(violation);
+        }
     }
 
 

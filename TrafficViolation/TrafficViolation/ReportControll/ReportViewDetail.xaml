@@ -4,20 +4,41 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrafficViolation.ReportControll"
-        mc:Ignorable="d"
-        Title="ReportViewDetail" Height="644" Width="1395">
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="ReportViewDetail" Height="644" Width="1395" xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#003366" Offset="0.0"/>
+            <GradientStop Color="#00AEEF" Offset="1.0"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Grid Margin="0,0,30,21">
         <DataGrid x:Name="dgReports" AutoGenerateColumns="False" HeadersVisibility="Column"
           ItemsSource="{Binding Reports}" CanUserAddRows="False" Margin="26,10,-17,10"
-          IsReadOnly="False">
+          IsReadOnly="False" >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Report ID" Binding="{Binding ReportId}" Width="80" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Reporter ID" Binding="{Binding ReporterId}" Width="80" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Violation Type" Binding="{Binding ViolationType, Mode=TwoWay}" Width="150"/>
                 <DataGridTextColumn Header="Description" Binding="{Binding Description, Mode=TwoWay}" Width="200"/>
                 <DataGridTextColumn Header="Plate Number" Binding="{Binding PlateNumber, Mode=TwoWay}" Width="100"/>
-                <DataGridTextColumn Header="Image URL" Binding="{Binding ImageUrl, Mode=TwoWay}" Width="100"/>
-                <DataGridTextColumn Header="Video URL" Binding="{Binding VideoUrl, Mode=TwoWay}" Width="100"/>
+                <DataGridTemplateColumn Header="Image" Width="150">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding ImageUrl}" Stretch="Uniform" Height="80"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Video -->
+                <DataGridTemplateColumn Header="Video" Width="250">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <wv2:WebView2 Name="webVideo" Width="240" Height="135" Loaded="webVideo_Loaded"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
                 <DataGridTextColumn Header="Location" Binding="{Binding Location, Mode=TwoWay}" Width="150"/>
                 <DataGridTextColumn Header="Report Date" Binding="{Binding ReportDate}" Width="120" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Status" Binding="{Binding Status,Mode=TwoWay}" Width="100" IsReadOnly="True"/>

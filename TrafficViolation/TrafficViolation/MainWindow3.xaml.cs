@@ -74,7 +74,9 @@ namespace TrafficViolation
 
         private void Pay_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            ViolationView violationView = new ViolationView();
+            violationView.Show();
+          
         }
 
 

@@ -14,6 +14,8 @@ using System.Windows.Shapes;
 using TrafficViolation.BLL.Services;
 using TrafficViolation.DAL.Models;
 using User = TrafficViolation.DAL.Models.User;
+using Microsoft.Web.WebView2.Core;
+using Microsoft.Web.WebView2.Wpf;
 
 namespace TrafficViolation.ReportControll
 {
@@ -55,5 +57,15 @@ namespace TrafficViolation.ReportControll
                 
             }
         }
+        private async void webVideo_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (sender is WebView2 browser && browser.DataContext is Report report && !string.IsNullOrWhiteSpace(report.VideoUrl))
+            {
+                await browser.EnsureCoreWebView2Async();
+                browser.Source = new Uri(report.VideoUrl);
+            }
+        }
+
+
     }
 }

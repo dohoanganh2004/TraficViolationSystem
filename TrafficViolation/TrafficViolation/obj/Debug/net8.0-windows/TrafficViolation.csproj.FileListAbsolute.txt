@@ -187,7 +187,6 @@ C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficVi
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\NotificationControll\NotificationManage.g.cs
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportAdd.g.cs
-C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportDelete.g.cs
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportDetail.g.cs
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportManage.g.cs
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportView.g.cs
@@ -204,7 +203,6 @@ C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficVi
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\NotificationControll\NotificationManage.baml
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportAdd.baml
-C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportDelete.baml
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportView.baml
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\UserControll\ManageUser.baml
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ViolationControll\ViolationManage.baml
@@ -220,8 +218,6 @@ C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficVi
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\TrafficViolation.pdb
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\TrafficViolation.genruntimeconfig.cache
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ref\TrafficViolation.dll
-C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportMine.g.cs
-C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportMine.baml
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\MainWindow3.g.cs
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\MainWindow3.baml
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\NotificationControll\NotificationsView.g.cs
@@ -302,3 +298,11 @@ C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficVi
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ComplaintControll\ComplaintDetail.baml
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportViewDetail.g.cs
 C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ReportControll\ReportViewDetail.baml
+C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\TrafficViolation_Content.g.cs
+C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ViolationControll\ViolationView.g.cs
+C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ViolationControll\ViolationView.baml
+C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ViolationControll\ViolationPay.g.cs
+C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\ViolationControll\ViolationPay.baml

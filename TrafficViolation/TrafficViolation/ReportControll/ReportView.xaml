@@ -5,12 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrafficViolation.ReportControll"
         mc:Ignorable="d"
-        Title="ReportView" Height="500" Width="1238"
+        Title="ReportView" Height="487" Width="1255"
         WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#003366" Offset="0.0"/>
+            <GradientStop Color="#00AEEF" Offset="1.0"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Grid Margin="0,74,140,0">
         <DataGrid x:Name="dgReports" AutoGenerateColumns="False" HeadersVisibility="Column"
-              ItemsSource="{Binding Reports}" Margin="5,-68,-126,0"
-              IsReadOnly="False" CanUserAddRows="False" SelectionChanged="dgReports_SelectionChanged">
+              ItemsSource="{Binding Reports}" Margin="10,-49,-131,0"
+              IsReadOnly="False" CanUserAddRows="False" SelectionChanged="dgReports_SelectionChanged" Height="422" VerticalAlignment="Top">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Report ID" Binding="{Binding ReportId}" Width="80" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Reporter ID" Binding="{Binding ReporterId}" Width="80" IsReadOnly="True"/>
@@ -23,17 +29,16 @@
                 <DataGridTextColumn Header="Report Date" Binding="{Binding ReportDate}" Width="120" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Status" Binding="{Binding Status,Mode=TwoWay}" Width="100" IsReadOnly="True"/>
 
-               
             </DataGrid.Columns>
         </DataGrid>
 
         <!-- Nút Back -->
         <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Bottom"
-            Margin="10,0,0,10" Padding="10,5" Click="BackButton_Click"/>
+            Margin="26,0,0,29" Padding="10,5" Click="BackButton_Click"/>
 
         <!-- Nút Create Report -->
         <Button Content="Create Report" HorizontalAlignment="Right" VerticalAlignment="Bottom"
-            Margin="0,0,1045,10" Padding="10,5" Click="CreateReportButton_Click"/>
+            Margin="0,0,915,29" Padding="10,5" Click="CreateReportButton_Click"/>
     </Grid>
 
 </Window>

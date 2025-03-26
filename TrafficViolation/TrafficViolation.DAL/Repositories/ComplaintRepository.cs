@@ -16,6 +16,27 @@ namespace TrafficViolation.DAL.Repositories
             TrafficViolationContext context = new TrafficViolationContext();
             return context.Complaints.Where(a=> a.UserId==userId).ToList();
         }
-        
+
+        public Complaint GetComplaintById(int complaintId) 
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            return context.Complaints.Where(a => a.ComplaintId == complaintId).FirstOrDefault();
+        }
+        public bool CreateComplaint(Complaint complaint)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            try
+            {
+                context.Complaints.Add(complaint);
+                context.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+
     }
 }

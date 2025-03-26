@@ -41,16 +41,10 @@
     <Compile Update="ReportControll\ReportAdd.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ReportControll\ReportDelete.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="ReportControll\ReportDetail.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ReportControll\ReportManage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="ReportControll\ReportMine.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ReportControll\ReportView.xaml.cs">
@@ -72,6 +66,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViolationControll\ViolationManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViolationControll\ViolationPay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViolationControll\ViolationView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -113,16 +113,10 @@
     <Page Update="ReportControll\ReportAdd.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ReportControll\ReportDelete.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="ReportControll\ReportDetail.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportControll\ReportManage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="ReportControll\ReportMine.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ReportControll\ReportView.xaml">
@@ -144,6 +138,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViolationControll\ViolationManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViolationControll\ViolationPay.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViolationControll\ViolationView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

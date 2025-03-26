@@ -49,7 +49,7 @@
             </Image>
 
 
-            <Button Content="Trả Tiền" HorizontalAlignment="Left" Height="68" Margin="312,236,0,0" VerticalAlignment="Top" Width="127" Click="Pay_Click" RenderTransformOrigin="2.187,2.213"/>
+            <Button Content="Danh Sách Vi Phạm" HorizontalAlignment="Left" Height="68" Margin="312,236,0,0" VerticalAlignment="Top" Width="127" Click="Pay_Click" RenderTransformOrigin="2.187,2.213"/>
             <Button Content="Khiếu Nại" HorizontalAlignment="Left" Height="65" Margin="112,239,0,0" VerticalAlignment="Top" Width="128" x:Name="Complaint" Click="Complaint_Click"/>
             <Button Content="Vi phạm" HorizontalAlignment="Left" Margin="112,119,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.5,0.5" Height="69" Click="btReportView_Click"/>
             <Button Content="Thông Báo" HorizontalAlignment="Left" Margin="312,119,0,0" VerticalAlignment="Top" Height="65" Width="134" Click="Nofication_Click"/>

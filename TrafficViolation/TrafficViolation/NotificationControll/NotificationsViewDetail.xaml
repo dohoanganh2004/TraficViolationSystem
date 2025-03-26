@@ -7,9 +7,15 @@
         mc:Ignorable="d"
         Title="NotificationsViewDetail" Height="503" Width="1024"
         WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#003366" Offset="0.0"/>
+            <GradientStop Color="#00AEEF" Offset="1.0"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Grid Margin="0,0,106,3">
         <DataGrid x:Name="dgNotification" AutoGenerateColumns="False" HeadersVisibility="Column"
-        ItemsSource="{Binding Notification}" Margin="38,29,-89,29"
+        ItemsSource="{Binding Notification}"  CanUserAddRows="False" Margin="38,29,-89,29"
         IsReadOnly="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="NotificationId" Binding="{Binding NotificationId}" Width="120" IsReadOnly="True"/>

@@ -44,12 +44,20 @@ namespace TrafficViolation.ComplaintControll
         {
             ComplaintCreate complaintCreate = new ComplaintCreate();
             complaintCreate.Show();
+            this.Close();
         }
-        
+
         private void ViewDetail_Click(object sender, RoutedEventArgs e)
         {
-            ComplaintDetail complaintDetail = new ComplaintDetail();
-            complaintDetail.Show();
+            Button button = sender as Button;
+            if (button != null)
+            {
+                int complaintId = (int)button.CommandParameter;
+                ComplaintDetail complaintDetail = new ComplaintDetail(complaintId);
+                complaintDetail.Show();
+            }
+            
+            }
         }
-    }
+
 }

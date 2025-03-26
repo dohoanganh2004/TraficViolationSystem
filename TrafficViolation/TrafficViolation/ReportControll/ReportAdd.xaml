@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="ReportAdd" Height="450" Width="800"
         WindowStartupLocation="CenterScreen">
-
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#003366" Offset="0.0"/>
+            <GradientStop Color="#00AEEF" Offset="1.0"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

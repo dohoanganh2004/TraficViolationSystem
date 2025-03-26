@@ -32,7 +32,24 @@ namespace TrafficViolation.DAL.Repositories
             context.SaveChanges();
         }
 
+        public List<Violation> GetViolationsById(int violatorId)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            return context.Violations.Where(a=> a.ViolatorId == violatorId).ToList();
 
-       
+        }
+        public void UpdateViolationPay(Violation violation)
+        {
+            using (var context = new TrafficViolationContext())
+            {
+                context.Violations.Update(violation);
+                context.SaveChanges(); 
+            }
+        }
+
+
+
+
+
     }
 }
