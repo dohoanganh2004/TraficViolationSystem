@@ -17,5 +17,21 @@ namespace TrafficViolation.DAL.Repositories
             return context.Complaints.Include(u => u.User).Include(r => r.Report).
                 Include(v => v.Violation).Include(p => p.ProcessedByNavigation).ToList();
         }
+
+        public void Update(Complaint complaint)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            context.Update(complaint);
+            context.SaveChanges();
+        }
+
+
+        public void CreateComplaint(Complaint complaint)
+        {
+            TrafficViolationContext context = new TrafficViolationContext();
+            context.Add(complaint);
+            context.SaveChanges();  
+
+        }
     }
 }

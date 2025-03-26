@@ -1,8 +1,11 @@
 ﻿<Window x:Class="TrafficViolation.ComplaintControll.ComplaintDetail"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Chi Tiết Khiếu Nại" Height="600" Width="900" Background="LightBlue"
+        Title="Chi Tiết Khiếu Nại" Height="750" Width="900" Background="LightBlue"
         WindowStartupLocation="CenterScreen">
+
+   
+
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -37,48 +40,52 @@
             <ColumnDefinition Width="500"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="Chi Tiết Khiếu Nại Từ Người Dân " 
-             Foreground="Red" 
-             FontSize="24" 
-             FontWeight="Bold"
-             HorizontalAlignment="Center"
-             Margin="0,10,0,10" Width="480"/>
-        <Label Content="Mã Khiếu Nại" Grid.Row="1" Grid.Column="0"/>
-        <Label Content="Lỗi Vi Phạm" Grid.Row="3" Grid.Column="0"/>
-        <Label Content="Ngày Vi Phạm" Grid.Row="5" Grid.Column="0"/>
-        <Label Content="Biển Số Xe" Grid.Row="7" Grid.Column="0"/>
-        <Label Content="Vị Trí Vi Phạm" Grid.Row="9" Grid.Column="0"/>
-        <Label Content="Nội Dung Khiếu Nại" Grid.Row="11" Grid.Column="0"/>
-        <Label Content="Ngày Khiếu Nại" Grid.Row="13" Grid.Column="0"/>
-        <Label Content="Trạng Thái " Grid.Row="15" Grid.Column="0"/>
-        <Label Content="Người Xử Lý" Grid.Row="17" Grid.Column="0"/>
-        <Label Content="Người Khiếu Nại" Grid.Row="19" Grid.Column="0"/>
-        <TextBox Grid.Row="2" Grid.Column="0" Name="txtComplaintID"/>
-        <TextBox Grid.Row="4" Grid.Column="0" Name="txtViolationType"/>
-        <DatePicker Grid.Row="6" Grid.Column="0" Name="dpReportDate"/>
-        <TextBox Grid.Row="8" Grid.Column="0" Name="txtPlateNumber"/>
-        <TextBox Grid.Row="10" Grid.Column="0" Name="txtLocation"/>
-        <TextBox Grid.Row="12" Grid.Column="0"  Name="txtComplaintText"/>
-        <DatePicker Grid.Row="14" Grid.Column="0" Name="dbComplaintDate"/>
-        <TextBox Grid.Row="16" Grid.Column="0" Name="txtStatus" />
-        <TextBox Grid.Row="18" Grid.Column="0" Name="txtProcessedBy" />
-        <TextBox Grid.Row="20" Grid.Column="0" Name="txtComplaintBy" />
+
+        <TextBlock Text="Chi Tiết Khiếu Nại Từ Người Dân" Foreground="Red" FontSize="24" 
+                   FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,10"/>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="10,10,10,15" Grid.RowSpan="22">
+            <Label Content="Mã Khiếu Nại"/>
+            <TextBox Name="txtComplaintID" Text="{Binding ComplaintId, Mode=TwoWay}" IsReadOnly="True"/>
+
+            <Label Content="Lỗi Vi Phạm"/>
+            <TextBox Name="txtViolationType" Text="{Binding Report.ViolationType, Mode=TwoWay}"/>
+
+            <Label Content="Ngày Vi Phạm"/>
+            <DatePicker Name="dpReportDate" SelectedDate="{Binding Report.ReportDate, Mode=TwoWay}"/>
+
+            <Label Content="Biển Số Xe"/>
+            <TextBox Name="txtPlateNumber" Text="{Binding Report.PlateNumber, Mode=TwoWay}"/>
+
+            <Label Content="Vị Trí Vi Phạm"/>
+            <TextBox Name="txtLocation" Text="{Binding Report.Location, Mode=TwoWay}"/>
+
+            <Label Content="Nội Dung Khiếu Nại"/>
+            <TextBox Name="txtComplaintText" Text="{Binding ComplaintText, Mode=TwoWay}" AcceptsReturn="True" Height="100"/>
+
+            <Label Content="Ngày Khiếu Nại"/>
+            <DatePicker Name="dpComplaintDate" SelectedDate="{Binding ComplaintDate, Mode=TwoWay}"/>
+
+            <Label Content="Trạng Thái"/>
+            <TextBox Name="txtStatus" Text="{Binding Status, Mode=TwoWay}"/>
+
+            <Label Content="Người Xử Lý"/>
+            <TextBox Name="txtProcessedBy" Text="{Binding ProcessedByNavigation.FullName, Mode=TwoWay}"/>
+
+            <Label Content="Người Khiếu Nại"/>
+            <TextBox Name="txtComplaintBy" Text="{Binding User.FullName, Mode=TwoWay}"/>
+            <TextBox Text="{Binding UserId}" Name="txtUserID" Visibility="Hidden"/>
+            <TextBox Text="{Binding ReportId}" Name="txtReportID" Visibility="Hidden"/>
+            <TextBox Text="{Binding ViolationId}" Name="txtViolationId" Visibility="Hidden"/>
+
+            <TextBox Text="{Binding ProcessedByNavigation.UserId}" Name="txtProcesserId" Visibility="Hidden"/>
+
+
+        </StackPanel>
+
         <StackPanel Grid.Row="22" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
-            <Button Content="Chấp Nhận" Width="100" Margin="5" Click="Accept_Click"/>
-            <Button Content="Từ Chối" Width="100" Margin="5" Click="Cancle_Click"/>
+            <Button Content="Chấp Nhận" Width="100" Margin="5" Click="Accept_Click" />
+            <Button Content="Từ Chối" Width="100" Margin="5"  Click="Cancle_Click"/>
         </StackPanel>
     </Grid>
-
-
-
-
-
-
-
-
-
-
-
-    
-    
 </Window>

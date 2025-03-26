@@ -85,8 +85,8 @@ namespace TrafficViolation
 
         private void btComplaint_Click(object sender, RoutedEventArgs e)
         {
-            ComplaintManage complaintManage = new ComplaintManage();
-            complaintManage.ShowDialog();
+          CompaintManage compaintManage = new CompaintManage(); 
+            compaintManage.ShowDialog();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)

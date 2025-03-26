@@ -93,11 +93,17 @@ namespace TrafficViolation.DAL.Repositories
                     existingReport.Location = report.Location;
                     existingReport.ReportDate = report.ReportDate;
                     existingReport.Status = report.Status;
+                    
 
                     context.SaveChanges();
                 }
             }
         }
+
+
+
+
+       
         public void DelelteReport(int reportId)
         {
             using (TrafficViolationContext context = new TrafficViolationContext())
@@ -126,6 +132,10 @@ namespace TrafficViolation.DAL.Repositories
                 return false;
             }
         }
+
+
+      
+        
 
     }
 }

@@ -49,7 +49,7 @@ namespace TrafficViolation.ReportControll
             _report.Status = "Đã duyệt";
             _report.ProcessedBy = user.UserId; // Lưu ID người xử lý
 
-            _reportService.UpdateReport(_report);
+            _reportService.EditReport(_report);
              reportManage.GetAllReport();
                 CreateViolation createViolation = new CreateViolation(_report);
         createViolation.Show();
@@ -66,7 +66,7 @@ namespace TrafficViolation.ReportControll
             _report.Status = "Bị từ chối";
             _report.ProcessedBy = user.UserId; 
 
-            _reportService.UpdateReport(_report);
+            _reportService.EditReport(_report);
 
             MessageBox.Show("Phản ánh đã được duyệt!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             reportManage.GetAllReport();

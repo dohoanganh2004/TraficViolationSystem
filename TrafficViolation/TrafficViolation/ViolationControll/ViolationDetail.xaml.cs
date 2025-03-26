@@ -44,8 +44,8 @@ namespace TrafficViolation.ViolationControll
             int reportId = Int32.Parse(txtReportId.Text);
             int violationId = Int32.Parse(txtViolationID.Text);
             string plateNumber = txtPlateNumber.Text;
+            int violatorID = Int32.Parse(txtViolatorId.Text);
             
-            string violatorName = txtValidator.Text;
             decimal fineAmount;
             DateTime fineDate;
             bool isPaid = cbPaidStatus.IsChecked ?? false;
@@ -75,17 +75,17 @@ namespace TrafficViolation.ViolationControll
                 ReportId = reportId,
                 ViolationId = violationId,
                 PlateNumber = plateNumber,
-                
+                ViolatorId = violatorID,
                 FineAmount = fineAmount,
                 FineDate = fineDate,
                 PaidStatus = isPaid
             };
 
          violationService.UpdateViolation(updatedViolation);
-            
+            MessageBox.Show("Cập nhật vi phạm thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
 
-           
-           
+
+
 
         }
     }

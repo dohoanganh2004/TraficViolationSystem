@@ -80,13 +80,7 @@ namespace TrafficViolation
           
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            NotificationManage notificationManage = new NotificationManage();
-            notificationManage.Show();
-            
-        }
-
+      
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
 
@@ -108,6 +102,11 @@ namespace TrafficViolation
         private void Logout(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

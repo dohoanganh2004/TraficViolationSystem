@@ -30,7 +30,7 @@
                 </Grid.RowDefinitions>
 
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Mã Vi Phạm:" Foreground="White" FontWeight="Bold" VerticalAlignment="Center"/>
-                <TextBox Grid.Row="0" Grid.Column="1" Name="txtViolationID" Margin="10,5" Width="450" Height="30" FontSize="14" Text="{Binding ReportId }"/>
+                <TextBox Grid.Row="0" Grid.Column="1" Name="txtViolationID" Margin="10,5" Width="450" Height="30" FontSize="14" Text="{Binding ViolationId }"/>
 
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Lỗi Vi Phạm:" Foreground="White" FontWeight="Bold" VerticalAlignment="Center"/>
                 <TextBox Grid.Row="1" Grid.Column="1" Name="txtViolationType" Margin="10,5" Width="450" Height="30" FontSize="14" Text="{Binding Report.ViolationType}"/>
@@ -48,12 +48,12 @@
                 <DatePicker Grid.Row="5" Grid.Column="1"  Name="txtFineDate" Margin="10,5" Width="450" Height="30" FontSize="14" Text="{Binding FineDate}"/>
 
                 <TextBlock Grid.Row="6" Grid.Column="0" Text="Trạng Thái Đã Nộp Phạt:" Foreground="White" FontWeight="Bold" VerticalAlignment="Center"/>
-                <CheckBox Grid.Row="6" Grid.Column="1" Margin="10,5" Name="cbPaidStatus" />
+                <CheckBox Grid.Row="6" Grid.Column="1" Margin="10,5" Name="cbPaidStatus" IsChecked="{Binding PaidStatus, Mode=TwoWay}"  />
 
                 
                 <TextBox Name="txtReportId" Grid.Row="0" Grid.Column="1" Visibility="Collapsed" Text="{Binding ReportId }"/>
 
-                <TextBox Name="txtViolatorId" Grid.Row="3" Grid.Column="1" Visibility="Collapsed" Text="{Binding Violator.ViolatorId}"/>
+                <TextBox Name="txtViolatorId" Grid.Row="3" Grid.Column="1" Visibility="Collapsed" Text="{Binding ViolatorId}"/>
 
 
             </Grid>

@@ -29,6 +29,12 @@ namespace TrafficViolation.BLL.Services
         {
             reportRepository.UpdateReport(report);
         }
+
+
+        public void EditReport(Report report)
+        {
+            reportRepository.EditReport(report);
+        }
         public bool ReportAdd(Report report)
         {
             return reportRepository.AddReport(report);

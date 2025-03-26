@@ -68,7 +68,7 @@ namespace TrafficViolation.ComplaintControll {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TrafficViolation;component/complaintcontroll/complaintmanage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TrafficViolation;V1.0.0.0;component/complaintcontroll/complaintmanage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\ComplaintControll\ComplaintManage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

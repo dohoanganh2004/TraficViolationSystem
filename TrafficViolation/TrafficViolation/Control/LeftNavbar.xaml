@@ -10,12 +10,10 @@
         <StackPanel>
             <TextBlock Text="MENU" Foreground="White" FontSize="18"
                        FontWeight="Bold" Margin="10"/>
-            <Button Content="☰ Menu" Click="ToggleNavbar_Click"/>
-            <Button Content="Dashboard" Click="Dashboard_Click" Margin="5"
-                    Background="Transparent" Foreground="White"/>
+            
+         
 
-            <Button Content="ChangePassword" Click="ChangePassword_Click" Margin="5"
-                    Background="Transparent" Foreground="White"/>
+           
 
             <Button Content="View Profile" Click="Profile_Click" Margin="5"
                     Background="Transparent" Foreground="White"/>

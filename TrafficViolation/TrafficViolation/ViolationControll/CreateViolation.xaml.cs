@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,9 +29,11 @@ namespace TrafficViolation.ViolationControll
         {
             InitializeComponent();
             LoadData(report);
+            DataContext = report;
         }
 
         // Load Data
+
         public void LoadData(Report report)
         {
             txtReportID.Text = report.ReportId.ToString();
@@ -40,7 +43,14 @@ namespace TrafficViolation.ViolationControll
             txtViolationType.Text = report.ViolationType;
             string validator = vehicleService.GetUserByPlateNumber(txtPlateNumber.Text);
             txtViolator.Text = validator;
-
+            if (!string.IsNullOrEmpty(report.ImageUrl) && File.Exists(report.ImageUrl))
+            {
+                imgViolation.Source = new BitmapImage(new Uri(report.ImageUrl, UriKind.Absolute));
+            }
+            else
+            {
+                imgViolation.Source = null; 
+            }
 
         }
         // Add Violation
@@ -80,9 +90,9 @@ namespace TrafficViolation.ViolationControll
                 PaidStatus = paidStatus,
 
             };
-            violationService.AddViolation(violation);
+             violationService.AddViolation(violation);
             MessageBox.Show("Thêm vi phạm thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
-            string notificationMessage = $"Bạn đã bị phạt {fineAmount:N0} VNĐ cho xe {plateNumber}.";
+            string notificationMessage = $"Bạn đã bị phạt {fineAmount:N0} VNĐ cho xe {plateNumber}.  Vui lòng kiểm tra chi tiết!";
             notificationService.SendNotification(validatorID, notificationMessage, plateNumber);
             violationService.GetAllViolation();
 }

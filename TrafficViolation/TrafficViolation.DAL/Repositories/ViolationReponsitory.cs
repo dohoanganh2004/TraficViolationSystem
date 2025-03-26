@@ -21,7 +21,6 @@ namespace TrafficViolation.DAL.Repositories
             TrafficViolationContext context = new TrafficViolationContext();
             context.Violations.Add(violation);
             context.SaveChanges();
-
             
         }
 

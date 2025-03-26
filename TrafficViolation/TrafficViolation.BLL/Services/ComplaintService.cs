@@ -16,5 +16,17 @@ namespace TrafficViolation.BLL.Services
         {
             return complaintRepository.GetAllComplaint();
         }
+
+
+        public void UpdateComplaint(Complaint complaint)
+        {
+            complaintRepository.Update(complaint);
+        }
+
+
+        public void CreateComplaint(Complaint complaint)
+        {
+            complaintRepository.CreateComplaint(complaint); 
+        }
     }
 }

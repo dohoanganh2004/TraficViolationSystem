@@ -7,10 +7,10 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="ComplaintControll\ComplaintDetail.xaml.cs">
+    <Compile Update="ComplaintControll\CompaintManage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ComplaintControll\ComplaintManage.xaml.cs">
+    <Compile Update="ComplaintControll\ComplaintDetail.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Control\LeftNavbar.xaml.cs">
@@ -29,6 +29,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="NotificationControll\NotificationManage.xaml.cs" />
+    <Compile Update="PaymantManage\PaymentManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ReportControll\ReportAdd.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -64,10 +67,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="ComplaintControll\ComplaintDetail.xaml">
+    <Page Update="ComplaintControll\CompaintManage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ComplaintControll\ComplaintManage.xaml">
+    <Page Update="ComplaintControll\ComplaintDetail.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Control\LeftNavbar.xaml">
@@ -89,6 +92,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="NotificationControll\NotificationManage.xaml" />
+    <Page Update="PaymantManage\PaymentManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ReportControll\ReportAdd.xaml">
       <SubType>Designer</SubType>
     </Page>
