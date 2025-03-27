@@ -8,6 +8,6 @@
     "\\TrafficViolation\\TrafficViolation.DAL",
     "\\TrafficViolation\\TrafficViolation.DAL\\Models"
   ],
-  "SelectedNode": "\\Data\\DuLieu.sql",
+  "SelectedNode": "\\Data\\TrafficViolation.sql",
   "PreviewInSolutionExplorer": false
 }

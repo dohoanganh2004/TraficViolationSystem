@@ -1,9 +1,10 @@
-﻿
+﻿C:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 
 FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\AdminWindow.xaml;;
 FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\ComplaintControll\CompaintManage.xaml;;
 FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\ComplaintControll\ComplaintCreate.xaml;;
 FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\ComplaintControll\ComplaintDetail.xaml;;
+FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\ComplaintControll\ComplaintDetailAdmin.xaml;;
 FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\ComplaintControll\ComplaintView.xaml;;
 FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\ForgotPassword.xaml;;
 FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\MainWindow3.xaml;;
@@ -17,5 +18,4 @@ FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficV
 FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\ViolationControll\ViolationManage.xaml;;
 FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\ViolationControll\ViolationPay.xaml;;
 FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\ViolationControll\ViolationView.xaml;;
-FC:\Users\admin\Documents\GitHub\TraficViolationSystem\TrafficViolation\TrafficViolation\ComplaintControll\ComplaintDetailAdmin.xaml;;
 
