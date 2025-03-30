@@ -39,6 +39,35 @@ namespace TrafficViolation.ReportControll
                 MessageBox.Show("User ID is invalid!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
+            if (string.IsNullOrWhiteSpace(txtPlateNumber.Text))
+            {
+                MessageBox.Show("Please enter a valid plate number.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(cbViolationType.Text))
+            {
+                MessageBox.Show("Please select a violation type.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtDescription.Text))
+            {
+                MessageBox.Show("Please enter a description.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtLocation.Text))
+            {
+                MessageBox.Show("Please enter the location of the violation.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtImageUrl.Text) && string.IsNullOrWhiteSpace(txtVideoUrl.Text))
+            {
+                MessageBox.Show("Please enter at least an Image URL or a Video URL.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
 
             ReportRepository reportRepository = new ReportRepository();
             Report newReport = new Report()

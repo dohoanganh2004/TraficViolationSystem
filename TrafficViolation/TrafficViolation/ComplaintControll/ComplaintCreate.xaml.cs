@@ -35,8 +35,15 @@ namespace TrafficViolation.ComplaintControll
         {
             try
             {
-                int? reportId = string.IsNullOrWhiteSpace(txtReportId.Text) ? null : int.Parse(txtReportId.Text);
-                int? violationId = string.IsNullOrWhiteSpace(txtViolationId.Text) ? null : int.Parse(txtViolationId.Text);
+                if (string.IsNullOrWhiteSpace(txtReportId.Text) || string.IsNullOrWhiteSpace(txtViolationId.Text))
+                {
+                    MessageBox.Show("Report ID and Violation ID cannot be empty.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                int reportId = int.Parse(txtReportId.Text);
+                int violationId = int.Parse(txtViolationId.Text);
+
                 string complaintText = txtComplaintText.Text;
 
                 if (string.IsNullOrWhiteSpace(complaintText))
